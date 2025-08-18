@@ -1,3 +1,6 @@
+import { en } from "./en";
+import { sr } from "./sr";
+
 export const languages = {
   en: "English",
   sr: "Srpski",
@@ -6,11 +9,6 @@ export const languages = {
 export const defaultLang = "en";
 
 export const ui = {
-  en: {
-    "nav.home": "Home",
-    "nav.about": "About",
-  },
-  sr: {
-    "nav.home": "Početna",
-  },
+  en,
+  sr,
 } as const;

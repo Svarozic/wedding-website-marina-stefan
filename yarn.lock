@@ -447,6 +447,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fontsource-variable/raleway@npm:^5.2.6":
+  version: 5.2.6
+  resolution: "@fontsource-variable/raleway@npm:5.2.6"
+  checksum: 10c0/aba9ccd08261a72c35efbe2938a6e98d873a9216146e1446888a8ad47c2fd38cf9129c59b6517f265e055cbb4066d7123c786dc2a0cd839794b60fda922040c1
+  languageName: node
+  linkType: hard
+
+"@fontsource/great-vibes@npm:^5.2.6":
+  version: 5.2.6
+  resolution: "@fontsource/great-vibes@npm:5.2.6"
+  checksum: 10c0/a54916c900884610b581b19d8c2a4bb087d04a51f65fa52fbe1a09c651e1994ce4d06e67e243ea340540be6433fadb8601a2433df14336389e6e0cdee0de620f
+  languageName: node
+  linkType: hard
+
 "@img/sharp-darwin-arm64@npm:0.33.5":
   version: 0.33.5
   resolution: "@img/sharp-darwin-arm64@npm:0.33.5"
@@ -5393,6 +5407,8 @@ __metadata:
   resolution: "wedding-website-marina-stefan@workspace:."
   dependencies:
     "@astrojs/check": "npm:^0.9.4"
+    "@fontsource-variable/raleway": "npm:^5.2.6"
+    "@fontsource/great-vibes": "npm:^5.2.6"
     "@tailwindcss/vite": "npm:^4.1.12"
     astro: "npm:^5.12.9"
     astro-i18n: "npm:^2.2.4"

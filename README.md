@@ -26,5 +26,6 @@
 - [astro-i18n](https://github.com/alexandre-fernandez/astro-i18nÏ)
 - [daisyUI](https://daisyui.com/)
 - [tailwind](https://tailwindcss.com/)
+  - [Default Theme Variables](https://tailwindcss.com/docs/theme#default-theme-variable-reference)
   - [Tailwind icons](https://www.tailwindtoolbox.com/icons)
 - [font source](https://fontsource.org/)

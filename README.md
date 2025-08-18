@@ -25,3 +25,4 @@
 
 - [astro-i18n](https://github.com/alexandre-fernandez/astro-i18nÏ)
 - [daisyUI](https://daisyui.com/)
+- [tailwind](https://tailwindcss.com/)

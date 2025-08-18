@@ -1,5 +1,26 @@
 @import "tailwindcss";
 
+@plugin "daisyui" {
+  themes: bumblebee --default;
+  logs: false;
+
+  /*
+   SVARGA: use include with parts to minimize size of page https://daisyui.com/docs/config/#include
+   include: button, input, select;
+   */
+}
+
+/*
+Customize Theme
+see: https://daisyui.com/docs/themes/#how-to-customize-an-existing-theme
+@plugin "daisyui/theme" {
+  name: "bumblebee";
+  default: true;
+  --color-primary: blue;
+  --color-secondary: teal;
+}
+*/
+
 /*
  SVARGA: add font
  Supports weights 100-900
@@ -7,12 +28,14 @@
  import "@fontsource/ephesis";
  */
 
-/*
-// SVARGA: font-size higher ?
-html {
-  font-size: 20px;
+/* Reset default margins and paddings */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
-∏*/
 
 body {
   background-color: #ffffff;
@@ -22,4 +45,12 @@ body {
 .my-watercolor-paper-texture {
   background-image: url("/watercolor-paper-texture_20240218.jpg");
   background-repeat: repeat;
+}
+
+html {
+  font-size: 20px; /* overrides default 16px */
+}
+
+@theme {
+  --text-base: 20px; /* overrides default 16px for tailwind */
 }

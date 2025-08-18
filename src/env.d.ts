@@ -4,7 +4,7 @@
 type PrimaryLocale = "en";
 type SecondaryLocale = "sr";
 type Locale = PrimaryLocale | SecondaryLocale;
-type RouteParameters = { "/en": undefined; "/en/program": undefined };
+type RouteParameters = { "/en/daisy": undefined; "/en": undefined; "/en/program": undefined };
 type Route = keyof RouteParameters;
 type TranslationVariables = {
   title: object | undefined;

@@ -1,5 +1,7 @@
 ---
 import { t, astroI18n } from "astro-i18n";
+import Container from "@components/Container.astro";
+import Footer from "@components/Footer.astro";
 
 import "@fontsource-variable/raleway";
 import "@fontsource/great-vibes";
@@ -28,8 +30,8 @@ import "../global.css";
       <slot />
     </main>
 
-    <!--// SVARGA: <Container>-->
-    <!--// SVARGA:   <Footer />-->
-    <!--</Container>-->
+    <Container>
+      <Footer />
+    </Container>
   </body>
 </html>

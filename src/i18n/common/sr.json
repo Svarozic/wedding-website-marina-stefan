@@ -1,6 +1,10 @@
 {
+  "lastUpdate": "Poslednje ažuriranje",
+
   "nav": {
     "home": "Početna",
+    "participation": "Potvrdite učešće",
+    "participation_short": "Učešće",
     "program": "Program"
   }
 }

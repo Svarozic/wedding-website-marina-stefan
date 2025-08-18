@@ -4,11 +4,19 @@
 type PrimaryLocale = "en";
 type SecondaryLocale = "sr";
 type Locale = PrimaryLocale | SecondaryLocale;
-type RouteParameters = { "/en/daisy": undefined; "/en": undefined; "/en/program": undefined };
+type RouteParameters = {
+  "/en/daisy": undefined;
+  "/en": undefined;
+  "/en/participation": undefined;
+  "/en/program": undefined;
+};
 type Route = keyof RouteParameters;
 type TranslationVariables = {
   title: object | undefined;
+  lastUpdate: object | undefined;
   "nav.home": object | undefined;
+  "nav.participation": object | undefined;
+  "nav.participation_short": object | undefined;
   "nav.program": object | undefined;
 };
 type Translation = keyof TranslationVariables;

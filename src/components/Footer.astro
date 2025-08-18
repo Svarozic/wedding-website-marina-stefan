@@ -1,0 +1,32 @@
+---
+import { l, t } from "astro-i18n";
+
+// SVARGA: use participation_short token
+---
+
+<footer class="footer sm:footer-horizontal text-base-content p-10">
+  <aside>
+    <a class="link-hover link footer-title" href={l("/")}><h6>{t("title")}</h6></a>
+    <p class="text-base-content/50">{t("lastUpdate")} @ 31.08.2025</p>
+    <p class="text-base-content/50">Copyright © {new Date().getFullYear()} - All right reserved</p>
+    <a class="link link-hover text-base-content/50" href="mailto:ivanapeter2024@gmail.com">
+      marinaystefan0911@gmail.com
+    </a>
+  </aside>
+
+  <nav>
+    <a class="link link-hover text-base-content/50 flex items-center gap-1" href={l("/")}
+      >{t("nav.home")}
+      <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+        ></path>
+      </svg>
+    </a>
+    <a class="link link-hover text-base-content/50" href={l("/participation")}>{t("nav.participation")}</a>
+    <a class="link link-hover text-base-content/50" href={l("/program")}>{t("nav.program")}</a>
+  </nav>
+</footer>

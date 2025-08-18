@@ -1,46 +1,27 @@
-# Astro Starter Kit: Basics
+# Wedding Website - Marina & Stefan
 
-```sh
-yarn create astro@latest -- --template basics
-```
+- **email:** marinaystefan0911@gmail.com
+- **location:** https://www.instagram.com/vila_jugovo_s/
+- [VercelApp: wedding-website-marina-stefan](https://vercel.com/svarozics-projects/wedding-website-marina-stefan)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## TODOs
 
-## 🚀 Project Structure
+### TODOs for Stefan
 
-Inside of your Astro project, you'll see the following folders and files:
+- discuss how to work on language translations
+- Pick **Font** for Website
+- Pick pages to do
+- For a program, I would suggest also mentioning the location where it is
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+### SVARGA: Program page
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+- 7:00 [Beograd] okupljanje svatova (people gathering)
+- 8:30 - 9:00 [Svilajnac] Dolazak po mladu
+- 12:00 [Beograd?] vjencanje u crkvi "Црква Св. Димитрија у Новом Београду"
+- 14:00 [Smederevo] Pocetak svatova
+- 15:00 [Smederevo?] Drzavno vjencanje
 
-## 🧞 Commands
+## Tech Notes
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `yarn install`         | Installs dependencies                            |
-| `yarn dev`             | Starts local dev server at `localhost:4321`      |
-| `yarn build`           | Build your production site to `./dist/`          |
-| `yarn preview`         | Preview your build locally, before deploying     |
-| `yarn astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `yarn astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- [astro-i18n](https://github.com/alexandre-fernandez/astro-i18nÏ)
+- [daisyUI](https://daisyui.com/)

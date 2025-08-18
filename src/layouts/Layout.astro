@@ -1,15 +1,10 @@
 ---
-import { getLangFromUrl } from "@i18n/utils";
-import { useTranslations } from "@i18n/utils";
+import { t, astroI18n } from "astro-i18n";
 import GlobalStyles from "@components/GlobalStyles.astro";
-
-const lang = getLangFromUrl(Astro.url);
-const t = useTranslations(lang);
 ---
 
-<!--// SVARGA: add theme data-theme="cupcake"-->
-<!doctype html>
-<html lang={lang}>
+<!--// SVARGA: add theme data-theme="cupcake"--><!doctype html>
+<html lang={astroI18n.locale}>
   <head>
     <!-- // SVARGA: <OpenGraphMetadata />-->
     <meta charset="UTF-8" />
@@ -20,7 +15,7 @@ const t = useTranslations(lang);
     <meta name="generator" content={Astro.generator} />
 
     <title>{t("title")}</title>
-    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <!--<link rel="icon" type="image/svg+xml" href="/favicon.ico" />-->
     <!-- // SVARGA: <ViewTransitions />-->
     <GlobalStyles />
   </head>

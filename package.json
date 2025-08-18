@@ -8,15 +8,21 @@
     "build": "astro build",
     "format": "prettier . --write",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "i18n:extract": "astro-i18n extract",
+    "i18n:generate:pages": "astro-i18n generate:pages --purge",
+    "i18n:generate:types": "astro-i18n generate:types",
+    "i18n:sync": "npm run i18n:generate:pages && npm run i18n:generate:types"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "astro": "^5.12.9",
+    "astro-i18n": "^2.2.4",
     "prettier": "3.6.2",
     "prettier-plugin-astro": "0.14.1",
     "prettier-plugin-tailwindcss": "0.6.14",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "vite-plugin-devtools-json": "^1.0.0"
   },
   "packageManager": "yarn@4.9.2"
 }

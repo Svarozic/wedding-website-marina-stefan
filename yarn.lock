@@ -1207,6 +1207,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"astro-i18n@npm:^2.2.4":
+  version: 2.2.4
+  resolution: "astro-i18n@npm:2.2.4"
+  peerDependencies:
+    esbuild: 0.x
+  bin:
+    astro-i18n: dist/src/bin.cjs
+  checksum: 10c0/a856e0d890e5a10589df63481f23268f00bce8ac45f0a897cf5a73f835127db2bbe1d0e873a342abd81eac1cc93f6f884b5dc81aa303842a822c94a802567898
+  languageName: node
+  linkType: hard
+
 "astro@npm:^5.12.9":
   version: 5.12.9
   resolution: "astro@npm:5.12.9"
@@ -4605,6 +4616,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"uuid@npm:^11.1.0":
+  version: 11.1.0
+  resolution: "uuid@npm:11.1.0"
+  bin:
+    uuid: dist/esm/bin/uuid
+  checksum: 10c0/34aa51b9874ae398c2b799c88a127701408cd581ee89ec3baa53509dd8728cbb25826f2a038f9465f8b7be446f0fbf11558862965b18d21c993684297628d4d3
+  languageName: node
+  linkType: hard
+
 "vfile-location@npm:^5.0.0":
   version: 5.0.3
   resolution: "vfile-location@npm:5.0.3"
@@ -4632,6 +4652,17 @@ __metadata:
     "@types/unist": "npm:^3.0.0"
     vfile-message: "npm:^4.0.0"
   checksum: 10c0/e5d9eb4810623f23758cfc2205323e33552fb5972e5c2e6587babe08fe4d24859866277404fb9e2a20afb71013860d96ec806cb257536ae463c87d70022ab9ef
+  languageName: node
+  linkType: hard
+
+"vite-plugin-devtools-json@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "vite-plugin-devtools-json@npm:1.0.0"
+  dependencies:
+    uuid: "npm:^11.1.0"
+  peerDependencies:
+    vite: ^5.0.0 || ^6.0.0 || ^7.0.0
+  checksum: 10c0/9b5c0666b9609306d230e0e2e637ab6c73e0323afc8aed39582d2ca486af90a0bc52162f5579cb684f4e2fcdedd460932c57ff8d5aa2cdce1a2a98374d8c94d4
   languageName: node
   linkType: hard
 
@@ -4964,10 +4995,12 @@ __metadata:
   dependencies:
     "@astrojs/check": "npm:^0.9.4"
     astro: "npm:^5.12.9"
+    astro-i18n: "npm:^2.2.4"
     prettier: "npm:3.6.2"
     prettier-plugin-astro: "npm:0.14.1"
     prettier-plugin-tailwindcss: "npm:0.6.14"
     typescript: "npm:^5.9.2"
+    vite-plugin-devtools-json: "npm:^1.0.0"
   languageName: unknown
   linkType: soft
 

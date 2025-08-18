@@ -1,6 +1,7 @@
 ---
 import { t, astroI18n } from "astro-i18n";
-import GlobalStyles from "@components/GlobalStyles.astro";
+
+import "../global.css";
 ---
 
 <!--// SVARGA: add theme data-theme="cupcake"--><!doctype html>
@@ -15,9 +16,8 @@ import GlobalStyles from "@components/GlobalStyles.astro";
     <meta name="generator" content={Astro.generator} />
 
     <title>{t("title")}</title>
-    <!--<link rel="icon" type="image/svg+xml" href="/favicon.ico" />-->
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <!-- // SVARGA: <ViewTransitions />-->
-    <GlobalStyles />
   </head>
 
   <body class="my-watercolor-paper-texture">

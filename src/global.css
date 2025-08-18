@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/*
+ SVARGA: add font
+ Supports weights 100-900
+ import "@fontsource-variable/raleway";
+ import "@fontsource/ephesis";
+ */
+
+/*
+// SVARGA: font-size higher ?
+html {
+  font-size: 20px;
+}
+∏*/
+
+body {
+  background-color: #ffffff;
+}
+
+/*// SVARGA: Add and remove from Navigation once scrolling*/
+.my-watercolor-paper-texture {
+  background-image: url("/watercolor-paper-texture_20240218.jpg");
+  background-repeat: repeat;
+}

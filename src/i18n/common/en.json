@@ -2,6 +2,11 @@
   "title": "Marina & Stefan",
   "lastUpdate": "Last update",
 
+  "languagePicker": {
+    "serbian": "Serbian",
+    "english": "English"
+  },
+
   "nav": {
     "home": "Home",
     "participation": "RSVP",

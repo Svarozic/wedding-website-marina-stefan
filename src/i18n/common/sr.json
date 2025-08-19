@@ -1,6 +1,11 @@
 {
   "lastUpdate": "Poslednje ažuriranje",
 
+  "languagePicker": {
+    "serbian": "Srpski",
+    "english": "Engleski"
+  },
+
   "nav": {
     "home": "Početna",
     "participation": "Potvrdite učešće",

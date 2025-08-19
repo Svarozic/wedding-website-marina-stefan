@@ -29,3 +29,4 @@
   - [Default Theme Variables](https://tailwindcss.com/docs/theme#default-theme-variable-reference)
   - [Tailwind icons](https://www.tailwindtoolbox.com/icons)
 - [font source](https://fontsource.org/)
+- [Flaticon](https://www.flaticon.com/search?word=flag%20serbia)

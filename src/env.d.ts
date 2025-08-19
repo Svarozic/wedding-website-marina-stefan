@@ -14,6 +14,8 @@ type Route = keyof RouteParameters;
 type TranslationVariables = {
   title: object | undefined;
   lastUpdate: object | undefined;
+  "languagePicker.serbian": object | undefined;
+  "languagePicker.english": object | undefined;
   "nav.home": object | undefined;
   "nav.participation": object | undefined;
   "nav.participation_short": object | undefined;

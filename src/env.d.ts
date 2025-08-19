@@ -18,6 +18,12 @@ type TranslationVariables = {
   "nav.participation": object | undefined;
   "nav.participation_short": object | undefined;
   "nav.program": object | undefined;
+  "participation.confirm": object | undefined;
+  "participation.headline.top": object | undefined;
+  "participation.headline.main": object | undefined;
+  "participation.problem.headline": object | undefined;
+  "participation.problem.text": object | undefined;
+  "participation.problem.open": object | undefined;
 };
 type Translation = keyof TranslationVariables;
 type Environment = "none" | "node" | "browser";

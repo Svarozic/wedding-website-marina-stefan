@@ -6,5 +6,18 @@
     "participation": "Potvrdite učešće",
     "participation_short": "Učešće",
     "program": "Program"
+  },
+
+  "participation": {
+    "confirm": "Potvrdite učešće",
+    "headline": {
+      "top": "Dolazite?",
+      "main": "Obavjestite nas"
+    },
+    "problem": {
+      "headline": "Ne vidite Google Formular?",
+      "text": "Žao nam je, nešto je pošlo po zlu. Molimo pokušajte otvoriti ovaj link.",
+      "open": "Otvori"
+    }
   }
 }

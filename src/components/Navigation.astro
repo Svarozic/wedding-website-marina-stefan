@@ -1,0 +1,121 @@
+---
+import { t, l } from "astro-i18n";
+---
+
+<div
+  id="myNavigation"
+  class="my-watercolor-paper-texture navbar fixed top-0 z-[2] mb-4 px-2 transition-all duration-200 lg:mb-8 lg:px-10"
+>
+  <div class="navbar-start">
+    <!--Mobile Dropdown-->
+    <div class="dropdown lg:hidden">
+      <label tabindex="0" class="btn btn-ghost">
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </label>
+
+      <ul tabindex="0" class="menu dropdown-content menu-sm rounded-box md:menu-md z-[2] mt-3 bg-white shadow-xl">
+        <li>
+          <a class="whitespace-nowrap" href={l("/")}>
+            <div class="flex items-center gap-1">
+              <span>{t("nav.home")}</span>
+              <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                ></path>
+              </svg>
+            </div>
+          </a>
+        </li>
+        <li><a class="whitespace-nowrap" href={l("/program")}>{t("nav.program")}</a></li>
+      </ul>
+    </div><!--Mobile Dropdown-->
+
+    <a href={l("/")} class="btn btn-ghost px-1 md:px-4">
+      <div class="flex gap-0 font-serif text-lg lg:text-3xl">
+        <span>Marina&nbsp;</span>
+        <svg
+          class="text-primary inline-block h-8 w-8 animate-[pulse_3s_ease-in-out_infinite]"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z"></path>
+          <path d="M12 20l-7 -7a4 4 0 0 1 6.5 -6a.9 .9 0 0 0 1 0a4 4 0 0 1 6.5 6l-7 7"></path></svg
+        >
+        <span>Stefan</span>
+      </div>
+    </a>
+  </div>
+
+  <div class="navbar-center hidden lg:flex">
+    <a class="btn btn-ghost" href={l("/program")}>{t("nav.program")}</a>
+  </div>
+
+  <div class="navbar-end">
+    <a class="btn btn-outline btn-primary btn-sm md:btn-md" href={l("/participation")}>
+      <svg
+        class="hidden h-5 w-5 md:block"
+        viewBox="0 0 24 24"
+        stroke-width="2"
+        stroke="currentColor"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path stroke="none" d="M0 0h24v24H0z"></path>
+        <line x1="10" y1="14" x2="21" y2="3"></line>
+        <path d="M21 3L14.5 21a.55 .55 0 0 1 -1 0L10 14L3 10.5a.55 .55 0 0 1 0 -1L21 3"></path></svg
+      >
+      <span class="hidden md:block">{t("nav.participation")}</span>
+      <span class="md:hidden">{t("nav.participation_short")}</span>
+    </a>
+    <span class="w-2 md:w-4"></span>
+    <!--// SVARGA: LanguagePicker -->
+    <div>TODO</div>
+    <!--<LanguagePicker />-->
+  </div>
+</div>
+
+<script>
+  // Lifecycle handles needed for astro transitions
+  // @see https://docs.astro.build/en/tutorials/add-view-transitions/#update-scripts
+  document.addEventListener("astro:page-load", () => {
+    const myNavigation = document.getElementById("myNavigation");
+
+    function scrollHandler() {
+      if (myNavigation == null) {
+        return;
+      }
+
+      if (window.scrollY >= myNavigation.offsetHeight / 2) {
+        // show
+        myNavigation.classList.add("bg-white/80");
+        myNavigation.classList.add("drop-shadow-xl");
+        myNavigation.classList.remove("my-watercolor-paper-texture");
+        myNavigation.classList.add("backdrop-blur");
+      } else {
+        // hide
+        myNavigation.classList.remove("drop-shadow-xl");
+        myNavigation.classList.remove("bg-white/80");
+        myNavigation.classList.remove("backdrop-blur");
+        myNavigation.classList.add("my-watercolor-paper-texture");
+      }
+    }
+
+    scrollHandler();
+    window.addEventListener("scroll", scrollHandler);
+
+    // cleanup before transition
+    document.addEventListener("astro:before-preparation", () => {
+      window.removeEventListener("scroll", scrollHandler);
+    });
+  });
+</script>

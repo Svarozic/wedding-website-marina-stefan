@@ -1,11 +1,13 @@
 ---
 import { t, astroI18n } from "astro-i18n";
+import { ClientRouter } from "astro:transitions";
 import Container from "@components/Container.astro";
 import Footer from "@components/Footer.astro";
 
 import "@fontsource-variable/raleway";
 import "@fontsource/great-vibes";
 import "../global.css";
+import Navigation from "@components/Navigation.astro";
 ---
 
 <html lang={astroI18n.locale}>
@@ -20,11 +22,12 @@ import "../global.css";
 
     <title>{t("title")}</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-    <!-- // SVARGA: <ViewTransitions />-->
+
+    <ClientRouter />
   </head>
 
   <body class="my-watercolor-paper-texture">
-    <!--// SVARGA: <Navigation />-->
+    <Navigation />
     <!--// SVARGA: <ScrollTopButton />-->
     <main>
       <slot />

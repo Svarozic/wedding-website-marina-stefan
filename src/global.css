@@ -21,13 +21,6 @@ see: https://daisyui.com/docs/themes/#how-to-customize-an-existing-theme
 }
 */
 
-/*
- SVARGA: add font
- Supports weights 100-900
- import "@fontsource-variable/raleway";
- import "@fontsource/ephesis";
- */
-
 /* Reset default margins and paddings */
 html,
 body {
@@ -39,7 +32,6 @@ body {
   background-color: #ffffff;
 }
 
-/*// SVARGA: Add and remove from Navigation once scrolling*/
 .my-watercolor-paper-texture {
   background-image: url("/watercolor-paper-texture_20240218.jpg");
   background-repeat: repeat;

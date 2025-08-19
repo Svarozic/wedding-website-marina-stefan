@@ -14,6 +14,7 @@ type Route = keyof RouteParameters;
 type TranslationVariables = {
   title: object | undefined;
   lastUpdate: object | undefined;
+  "languagePicker.tooltip": object | undefined;
   "languagePicker.serbian": object | undefined;
   "languagePicker.english": object | undefined;
   "nav.home": object | undefined;
@@ -26,6 +27,17 @@ type TranslationVariables = {
   "participation.problem.headline": object | undefined;
   "participation.problem.text": object | undefined;
   "participation.problem.open": object | undefined;
+  "program.headline": object | undefined;
+  "program.brideArrival": object | undefined;
+  "program.church": object | undefined;
+  "program.civilWedding": object | undefined;
+  "program.disclaimer": object | undefined;
+  "program.gathering": object | undefined;
+  "program.weddingCelebration": object | undefined;
+  "program.location.beograd": object | undefined;
+  "program.location.church": object | undefined;
+  "program.location.smederevo": object | undefined;
+  "program.location.svilajnac": object | undefined;
 };
 type Translation = keyof TranslationVariables;
 type Environment = "none" | "node" | "browser";

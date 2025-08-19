@@ -2,6 +2,7 @@
   "lastUpdate": "Poslednje ažuriranje",
 
   "languagePicker": {
+    "tooltip": "Izaberite jezik",
     "serbian": "Srpski",
     "english": "Engleski"
   },
@@ -23,6 +24,24 @@
       "headline": "Ne vidite Google Formular?",
       "text": "Žao nam je, nešto je pošlo po zlu. Molimo pokušajte otvoriti ovaj link.",
       "open": "Otvori"
+    }
+  },
+
+  "program": {
+    "headline": "Naš posebni dan",
+
+    "brideArrival": "Dolazak po mladu",
+    "church": "Venčanje u crkvi",
+    "civilWedding": "Državno venčanje",
+    "disclaimer": "Ovaj program se još može promjenunti",
+    "gathering": "Okupljanje svatova",
+    "weddingCelebration": "Početak svatova",
+
+    "location": {
+      "beograd": "Belgrade",
+      "church": "Church of St. Dimitrije in New Belgrade",
+      "smederevo": "Smederevo",
+      "svilajnac": "Svilajnac"
     }
   }
 }

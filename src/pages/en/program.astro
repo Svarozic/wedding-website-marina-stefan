@@ -1,6 +1,41 @@
 ---
-import Layout from "@layouts/Layout.astro";
 import { t } from "astro-i18n";
+
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/Container.astro";
+import Headline from "@components/Headline.astro";
+import FlowerDivider from "@components/FlowerDivider.astro";
+import Center from "@components/Center.astro";
+import TimelineItem from "@components/TimelineItem.astro";
 ---
 
-<Layout>{t("nav.program")}</Layout>
+<Layout>
+  <Container>
+    <Headline top={t("nav.program")}>{t("program.headline")}</Headline>
+  </Container>
+
+  <Container>
+    <ul class="timeline timeline-vertical timeline-snap-icon max-md:timeline-compact">
+      <TimelineItem time="7:00" titleKey="program.gathering" locationKey="program.location.beograd" />
+
+      <TimelineItem time="8:30" side="right" titleKey="program.brideArrival" locationKey="program.location.svilajnac" />
+
+      <TimelineItem time="12:00" big titleKey="program.church" locationKey="program.location.beograd" />
+
+      <TimelineItem
+        time="14:00"
+        side="right"
+        titleKey="program.weddingCelebration"
+        locationKey="program.location.smederevo"
+      />
+
+      <TimelineItem time="15:00" titleKey="program.civilWedding" locationKey="program.location.smederevo" />
+    </ul>
+
+    <Center class="mt-20">
+      <p class="text-base-content/50 text-xs">{t("program.disclaimer")}</p>
+    </Center>
+  </Container>
+
+  <FlowerDivider type="2" />
+</Layout>

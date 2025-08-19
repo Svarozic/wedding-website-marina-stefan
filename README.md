@@ -14,11 +14,12 @@
   - I would suggest also mentioning the location where it is
   - do you want some description as is here https://daisyui.com/components/timeline/#timeline-with-icon-snapped-to-the-start or just as we had it https://ivanapeter.vercel.app/en/program
 - **Pick a color palette**
+  - Daisy UI theme `bumblebee` ?
 - **Pick Font** for Website
   - Sans and Serif
 - **Pick pages** to do
   - Do you want "Wedding vows" ?
-  - Do you want already "Photos" ? 
+  - Do you want already "Photos" ?
 - **Pick own Divider**
   - we had drawn flowers from google
 - **Pick Logo** - for favicon and symbol between names
@@ -28,9 +29,9 @@
 
 - 7:00 [Beograd] okupljanje svatova (people gathering)
 - 8:30 - 9:00 [Svilajnac] Dolazak po mladu
-- 12:00 [Beograd?] vjencanje u crkvi "Црква Св. Димитрија у Новом Београду"
-- 14:00 [Smederevo] Pocetak svatova
-- 15:00 [Smederevo?] Drzavno vjencanje
+- 12:00 [Beograd?] venčanje u crkvi "Crkva Sv. Dimitrija u Novom Beogradu"
+- 14:00 [Smederevo] Početak svatova
+- 15:00 [Smederevo?] Državno venčanje
 
 ## Tech Notes
 

@@ -3,6 +3,7 @@
   "lastUpdate": "Last update",
 
   "languagePicker": {
+    "tooltip": "Pick the language",
     "serbian": "Serbian",
     "english": "English"
   },
@@ -24,6 +25,24 @@
       "headline": "You don't see the Google Form?",
       "text": "We're sorry, something went wrong. Please try this link",
       "open": "Open"
+    }
+  },
+
+  "program": {
+    "headline": "Our special day",
+
+    "brideArrival": "Arrival for the bride",
+    "church": "Wedding in the church",
+    "civilWedding": "Civil wedding ceremony",
+    "disclaimer": "Please note: This program is still subject to change.",
+    "gathering": "Gathering of the wedding guests",
+    "weddingCelebration": "Start of the wedding celebration",
+
+    "location": {
+      "beograd": "Belgrade",
+      "church": "Church of St. Dimitrije in New Belgrade",
+      "smederevo": "Smederevo",
+      "svilajnac": "Svilajnac"
     }
   }
 }

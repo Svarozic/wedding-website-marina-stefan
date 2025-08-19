@@ -17,7 +17,7 @@ const LANGUAGES: Record<Locale, { pngSrc: string; label: string }> = {
 ---
 
 <div class="dropdown dropdown-end">
-  <label tabindex="0" class="tooltip tooltip-left" data-tip={t("localePickerTitle")}>
+  <label tabindex="0" class="tooltip tooltip-left cursor-pointer" data-tip={t("languagePicker.tooltip")}>
     <span class="flex items-center -space-x-3">
       {
         Object.keys(LANGUAGES)

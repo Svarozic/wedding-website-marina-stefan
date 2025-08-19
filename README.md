@@ -8,10 +8,21 @@
 
 ### TODOs for Stefan
 
-- discuss how to work on language translations
-- Pick **Font** for Website
-- Pick pages to do
-- For a program, I would suggest also mentioning the location where it is
+- Discuss how to work on **language translations**
+  - what default lang ?
+- Program:
+  - I would suggest also mentioning the location where it is
+  - do you want some description as is here https://daisyui.com/components/timeline/#timeline-with-icon-snapped-to-the-start or just as we had it https://ivanapeter.vercel.app/en/program
+- **Pick a color palette**
+- **Pick Font** for Website
+  - Sans and Serif
+- **Pick pages** to do
+  - Do you want "Wedding vows" ?
+  - Do you want already "Photos" ? 
+- **Pick own Divider**
+  - we had drawn flowers from google
+- **Pick Logo** - for favicon and symbol between names
+  - we had red hearts
 
 ### SVARGA: Program page
 

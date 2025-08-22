@@ -1,18 +1,17 @@
 /// <reference types="astro/client" />
 
 // ###> astro-i18n/type-generation ###
-type PrimaryLocale = "en";
-type SecondaryLocale = "sr";
+type PrimaryLocale = "sr";
+type SecondaryLocale = "en";
 type Locale = PrimaryLocale | SecondaryLocale;
 type RouteParameters = {
-  "/en/daisy": undefined;
-  "/en": undefined;
-  "/en/participation": undefined;
-  "/en/program": undefined;
+  "/sr/daisy": undefined;
+  "/sr": undefined;
+  "/sr/participation": undefined;
+  "/sr/program": undefined;
 };
 type Route = keyof RouteParameters;
 type TranslationVariables = {
-  title: object | undefined;
   lastUpdate: object | undefined;
   "languagePicker.tooltip": object | undefined;
   "languagePicker.serbian": object | undefined;

@@ -12,9 +12,6 @@ index page
 
 ### TODOs for Stefan
 
-- Discuss how to work on **language translations**
-  - what default lang ? SVARGA: sr by default
-
 ## Tech Notes
 
 - [astro-i18n](https://github.com/alexandre-fernandez/astro-i18nÏ)

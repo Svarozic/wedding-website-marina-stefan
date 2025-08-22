@@ -1,16 +1,6 @@
 ---
-import Layout from "@layouts/Layout.astro";
-import Container from "@components/Container.astro";
-import ParticipationHeadline from "@components/ParticipationHeadline.astro";
-import FlowerDivider from "@components/FlowerDivider.astro";
+import Page from "../sr/index.astro";
+const { props } = Astro;
 ---
 
-<Layout>
-  <FlowerDivider type="3" />
-
-  <Container>
-    <ParticipationHeadline />
-  </Container>
-
-  <FlowerDivider type="1" />
-</Layout>
+<Page {...props} />

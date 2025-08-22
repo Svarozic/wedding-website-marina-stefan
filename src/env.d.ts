@@ -13,6 +13,9 @@ type RouteParameters = {
 type Route = keyof RouteParameters;
 type TranslationVariables = {
   lastUpdate: object | undefined;
+  "hero.headline1": object | undefined;
+  "hero.headline2": object | undefined;
+  "hero.headline3": object | undefined;
   "languagePicker.tooltip": object | undefined;
   "languagePicker.serbian": object | undefined;
   "languagePicker.english": object | undefined;

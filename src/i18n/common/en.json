@@ -2,6 +2,12 @@
   "title": "Marina & Stefan",
   "lastUpdate": "Last update",
 
+  "hero": {
+    "headline1": "Lorem ipsum dolor",
+    "headline2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy",
+    "headline3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy"
+  },
+
   "languagePicker": {
     "tooltip": "Pick the language",
     "serbian": "Serbian",

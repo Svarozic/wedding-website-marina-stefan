@@ -1,6 +1,12 @@
 {
   "lastUpdate": "Poslednje ažuriranje",
 
+  "hero": {
+    "headline1": "Lorem ipsum dolor",
+    "headline2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy",
+    "headline3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy"
+  },
+
   "languagePicker": {
     "tooltip": "Izaberite jezik",
     "serbian": "Srpski",

@@ -1,0 +1,23 @@
+---
+import { t } from "astro-i18n";
+---
+
+<div class="mx-auto w-full max-w-240 px-2 pb-4 lg:px-4 lg:pb-8">
+  <div class="grid min-h-svh place-items-center items-center gap-4 lg:grid-cols-3">
+    <div class="lg:col-span-2">
+      <div class="text-center lg:text-start">
+        <h1 class="py-6 font-serif text-7xl lg:py-12 lg:text-8xl">{t("hero.headline1")}</h1>
+
+        <p class="max-w-xl pb-4 lg:text-lg">
+          {t("hero.headline2")}
+        </p>
+        <p class="max-w-xl pb-4 lg:text-lg">
+          {t("hero.headline3")}
+        </p>
+      </div>
+    </div>
+    <div>
+      <img class="h-auto max-h-160 w-auto" src="https://placehold.co/400x900" alt="drawing hugging" />
+    </div>
+  </div>
+</div>

@@ -21,6 +21,7 @@ index page
   - [Tailwind icons](https://www.tailwindtoolbox.com/icons)
 - [font source](https://fontsource.org/)
 - [Flaticon](https://www.flaticon.com/search?word=flag%20serbia)
+- [Placehold](https://placehold.co)
 
 ## Program
 

@@ -13,6 +13,13 @@ type RouteParameters = {
 type Route = keyof RouteParameters;
 type TranslationVariables = {
   lastUpdate: object | undefined;
+  moreInfo: object | undefined;
+  "countdown.days": object | undefined;
+  "countdown.hours": object | undefined;
+  "countdown.minutes": object | undefined;
+  "countdown.seconds": object | undefined;
+  "countdown.until": object | undefined;
+  "countdown.after": object | undefined;
   "hero.headline1": object | undefined;
   "hero.headline2": object | undefined;
   "hero.headline3": object | undefined;

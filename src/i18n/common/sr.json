@@ -1,6 +1,18 @@
 {
   "lastUpdate": "Poslednje ažuriranje",
 
+  "moreInfo": "Više informacija",
+
+  "countdown": {
+    "days": "dani",
+    "hours": "sati",
+    "minutes": "minuti",
+    "seconds": "sekunde",
+
+    "until": "dok ne kažemo Da",
+    "after": "ono što smo sebi rekli Da"
+  },
+
   "hero": {
     "headline1": "Lorem ipsum dolor",
     "headline2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy",

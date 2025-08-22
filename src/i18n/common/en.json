@@ -2,6 +2,18 @@
   "title": "Marina & Stefan",
   "lastUpdate": "Last update",
 
+  "moreInfo": "More info",
+
+  "countdown": {
+    "days": "days",
+    "hours": "hours",
+    "minutes": "minutes",
+    "seconds": "seconds",
+
+    "until": "until we say Yes",
+    "after": "what we've told ourselves Yes"
+  },
+
   "hero": {
     "headline1": "Lorem ipsum dolor",
     "headline2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy",

@@ -6,6 +6,10 @@
 
 ## TODOs
 
+index page
+
+- SVARGA: add Countdown component with paralax efect behind with location photo of vila
+
 ### TODOs for Stefan
 
 - Discuss how to work on **language translations**

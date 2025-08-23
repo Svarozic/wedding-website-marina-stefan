@@ -5,7 +5,7 @@ import { l, t } from "astro-i18n";
 <footer class="footer sm:footer-horizontal text-base-content p-10">
   <aside>
     <a class="link-hover link footer-title" href={l("/")}><h6>{t("title")}</h6></a>
-    <p class="text-base-content/50">{t("lastUpdate")} @ 31.08.2025</p>
+    <p class="text-base-content/50">{t("lastUpdate")} @ 23.08.2025</p>
     <p class="text-base-content/50">Copyright © {new Date().getFullYear()} - All right reserved</p>
     <a class="link link-hover text-base-content/50" href="mailto:ivanapeter2024@gmail.com">
       marinaystefan0911@gmail.com
@@ -13,7 +13,7 @@ import { l, t } from "astro-i18n";
   </aside>
 
   <nav>
-    <a class="link link-hover text-base-content/50 flex items-center gap-1" href={l("/")}
+    <a class="link text-base-content/50 flex items-center gap-1" href={l("/")}
       >{t("nav.home")}
       <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path
@@ -24,7 +24,7 @@ import { l, t } from "astro-i18n";
         ></path>
       </svg>
     </a>
-    <a class="link link-hover text-base-content/50" href={l("/participation")}>{t("nav.participation")}</a>
-    <a class="link link-hover text-base-content/50" href={l("/program")}>{t("nav.program")}</a>
+    <a class="link text-base-content/50" href={l("/participation")}>{t("nav.participation")}</a>
+    <a class="link text-base-content/50" href={l("/program")}>{t("nav.program")}</a>
   </nav>
 </footer>

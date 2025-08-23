@@ -11,7 +11,8 @@
 - message to whatsup
   - index page with Hero, Countdown and Wedding Date
   - SR default lang
-  - added some "Lorem ipsum" text placeholders that need your input (what you want there and translations)
+  - added some placeholder "Lorem ipsum" texts that need your input (what you want there and translations)
+  - added some placeholder images, that need to be replaced with yours
 
 ### for Stefan
 

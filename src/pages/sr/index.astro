@@ -13,16 +13,6 @@ import Center from "@components/Center.astro";
 <Layout>
   <Hero />
 
-  <FlowerDivider type="3" />
-
-  <Container>
-    <Headline top={t("program.when") + "?"}>{t("program.date")}</Headline>
-
-    <Center>
-      <a class="btn btn-outline" href={l("/program")}>{t("moreInfo")}</a>
-    </Center>
-  </Container>
-
   <div class="parallax-wedding-location flex h-96 w-full flex-col items-center justify-center lg:h-140">
     <style>
       .parallax-wedding-location {
@@ -38,6 +28,30 @@ import Center from "@components/Center.astro";
     <div class="card mx-2 bg-white/50 p-4 shadow-xl backdrop-blur lg:p-8">
       <CountdownHeadline withHeadline />
     </div>
+  </div>
+
+  <Container>
+    <Headline top={t("program.when") + "?"}>{t("program.date")}</Headline>
+
+    <Center>
+      <a class="btn btn-outline" href={l("/program")}>{t("moreInfo")}</a>
+    </Center>
+  </Container>
+
+  <FlowerDivider type="3" />
+
+  <div class="parallax-couple h-96 w-full lg:h-140">
+    <style>
+      .parallax-couple {
+        background: url(/parallax-couple-800-800.jpeg) no-repeat fixed center center;
+        background-size: cover;
+
+        @media only screen and (min-width: 768px) {
+          background: url(/parallax-couple.jpeg) no-repeat fixed center center;
+          background-size: cover;
+        }
+      }
+    </style>
   </div>
 
   <Container>

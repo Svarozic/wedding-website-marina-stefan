@@ -6,11 +6,14 @@
 
 ## TODOs
 
-index page
+### Svarga for me
 
-- SVARGA: add Countdown component with paralax efect behind with location photo of vila
+- message to whatsup
+  - index page with Hero, Countdown and Wedding Date
+  - SR default lang
+  - added some "Lorem ipsum" text placeholders that need your input (what you want there and translations)
 
-### TODOs for Stefan
+### for Stefan
 
 ## Tech Notes
 

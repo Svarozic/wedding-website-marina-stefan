@@ -6,30 +6,39 @@ import ParticipationHeadline from "@components/ParticipationHeadline.astro";
 import FlowerDivider from "@components/FlowerDivider.astro";
 import Hero from "@components/Hero.astro";
 import CountdownHeadline from "@components/CountdownHeadline.astro";
+import Headline from "@components/Headline.astro";
+import Center from "@components/Center.astro";
 ---
 
 <Layout>
   <Hero />
 
-  <style>
-    .parallax-wedding-location {
-      background: url(/parallax-wedding-location-800-800.jpeg) no-repeat fixed center center;
-      background-size: cover;
+  <FlowerDivider type="3" />
 
-      @media only screen and (min-width: 768px) {
-        background: url(/parallax-wedding-location.jpeg) no-repeat fixed center center;
-        background-size: cover;
-      }
-    }
-  </style>
+  <Container>
+    <Headline top={t("program.when") + "?"}>{t("program.date")}</Headline>
+
+    <Center>
+      <a class="btn btn-outline" href={l("/program")}>{t("moreInfo")}</a>
+    </Center>
+  </Container>
+
   <div class="parallax-wedding-location flex h-96 w-full flex-col items-center justify-center lg:h-140">
+    <style>
+      .parallax-wedding-location {
+        background: url(/parallax-wedding-location-800-800.jpeg) no-repeat fixed center center;
+        background-size: cover;
+
+        @media only screen and (min-width: 768px) {
+          background: url(/parallax-wedding-location.jpeg) no-repeat fixed center center;
+          background-size: cover;
+        }
+      }
+    </style>
     <div class="card mx-2 bg-white/50 p-4 shadow-xl backdrop-blur lg:p-8">
       <CountdownHeadline withHeadline />
-      <a class="btn btn-ghost" href={l("/program")}>{t("moreInfo")}</a>
     </div>
   </div>
-
-  <FlowerDivider type="3" />
 
   <Container>
     <ParticipationHeadline />

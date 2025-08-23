@@ -43,6 +43,8 @@ type TranslationVariables = {
   "program.disclaimer": object | undefined;
   "program.gathering": object | undefined;
   "program.weddingCelebration": object | undefined;
+  "program.when": object | undefined;
+  "program.date": object | undefined;
   "program.location.beograd": object | undefined;
   "program.location.church": object | undefined;
   "program.location.smederevo": object | undefined;

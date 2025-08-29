@@ -45,7 +45,7 @@ html {
   --text-base: 20px; /* overrides default 16px for tailwind */
 
   --font-sans:
-    "Raleway Variable", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Didact Gothic", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
     "Noto Color Emoji";
   --font-serif: "Great Vibes", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }

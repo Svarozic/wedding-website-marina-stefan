@@ -447,10 +447,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fontsource-variable/raleway@npm:^5.2.6":
+"@fontsource/didact-gothic@npm:^5.2.6":
   version: 5.2.6
-  resolution: "@fontsource-variable/raleway@npm:5.2.6"
-  checksum: 10c0/aba9ccd08261a72c35efbe2938a6e98d873a9216146e1446888a8ad47c2fd38cf9129c59b6517f265e055cbb4066d7123c786dc2a0cd839794b60fda922040c1
+  resolution: "@fontsource/didact-gothic@npm:5.2.6"
+  checksum: 10c0/cec02616e7d200b83b6d4febf90cb21ca48b975fe5cdd510306f2ccb7c6723d13f8ecc658352f2be44b0f1f7b7023f1b55240896a85d2bce33cf0e29a6ba2fd0
   languageName: node
   linkType: hard
 
@@ -5407,7 +5407,7 @@ __metadata:
   resolution: "wedding-website-marina-stefan@workspace:."
   dependencies:
     "@astrojs/check": "npm:^0.9.4"
-    "@fontsource-variable/raleway": "npm:^5.2.6"
+    "@fontsource/didact-gothic": "npm:^5.2.6"
     "@fontsource/great-vibes": "npm:^5.2.6"
     "@tailwindcss/vite": "npm:^4.1.12"
     astro: "npm:^5.12.9"

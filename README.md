@@ -19,6 +19,7 @@
 - I will create web with `sr`, `en` first, other locales likes `de`, `ru` I will do at the end, when website is finished and texts are final
   - otherwise it would be slowing me down (I already need to do 1x extra copy per text to EN, then I would need to do 3x extra)
   - taking care of `sr` texts and their translations (and keeping it in sync) is your responsibility
+- Fonts "Didact Gothic" for sans and "Great Vibes" for serif are used
 
 ## Tech Notes
 

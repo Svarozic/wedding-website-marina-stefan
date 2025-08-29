@@ -36,7 +36,7 @@
     "home": "Home",
     "participation": "RSVP",
     "participation_short": "RSVP",
-    "program": "Programme"
+    "itinerary": "Itinerary"
   },
 
   "participation": {
@@ -52,9 +52,9 @@
     }
   },
 
-  "program": {
+  "itinerary": {
     "headline": "Our special day",
-    "disclaimer": "Please note: This program is still subject to change.",
+    "disclaimer": "Please note: This itinerary is still subject to change.",
 
     "gathering": "Gathering of the wedding guests at the groom’s home",
     "departureToSvilajnac": "Departure of the wedding guests for Svilajnac",

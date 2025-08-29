@@ -24,7 +24,7 @@
 - Fonts "Didact Gothic" for sans and "Great Vibes" for serif are used
 - Keeping 3x "flower dividers" that we had on our website too.
   - I used 3x to not have only 1x to repeat all the time, if you want only one "flower divider" let me know, and I will remove others
-- page `/programm` was updated by agenda from the GoogleDoc "Текст за веб страницу"
+- itinerary page `/itinerary` was updated by agenda from the GoogleDoc
 - fix: `"Када"` and `"9. новембра 2025"`
 - fix: Title `Marina & Stefan` uses Cyrillic in `sr` locale
 - fix: All `sr` locale texts uses Cyrillic
@@ -43,11 +43,3 @@
 - [font source](https://fontsource.org/)
 - [Flaticon](https://www.flaticon.com/search?word=flag%20serbia)
 - [Placehold](https://placehold.co)
-
-## Program
-
-- 7:00 [Beograd] okupljanje svatova (people gathering)
-- 8:30 - 9:00 [Svilajnac] Dolazak po mladu
-- 12:00 [Beograd?] venčanje u crkvi "Crkva Sv. Dimitrija u Novom Beogradu"
-- 14:00 [Smederevo] Početak svatova
-- 15:00 [Smederevo?] Državno venčanje

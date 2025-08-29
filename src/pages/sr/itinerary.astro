@@ -1,0 +1,68 @@
+---
+import { t } from "astro-i18n";
+
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/Container.astro";
+import Headline from "@components/Headline.astro";
+import FlowerDivider from "@components/FlowerDivider.astro";
+import Center from "@components/Center.astro";
+import TimelineItem from "@components/TimelineItem.astro";
+import ParticipationHeadline from "@components/ParticipationHeadline.astro";
+---
+
+<Layout>
+  <Container>
+    <Headline top={t("nav.itinerary")}>{t("itinerary.headline")}</Headline>
+  </Container>
+
+  <Container>
+    <ul class="timeline timeline-vertical timeline-snap-icon max-md:timeline-compact">
+      <TimelineItem time="6:45 – 07:00" titleKey="itinerary.gathering" locationKey="itinerary.address.bulevar" />
+
+      <TimelineItem time="7:30" side="right" titleKey="itinerary.departureToSvilajnac" />
+
+      <TimelineItem time="08:30" titleKey="itinerary.gatheringBridesHome" locationKey="itinerary.address.svilajnac" />
+
+      <TimelineItem time="08:45 – 09:00" side="right" titleKey="itinerary.arrivalSvilajnac" />
+
+      <TimelineItem time="10:00" titleKey="itinerary.departureToBeograd" />
+
+      <TimelineItem
+        time="11:30 – 11:45"
+        side="right"
+        titleKey="itinerary.arrivalBeograd"
+        locationKey="itinerary.address.church"
+      />
+
+      <TimelineItem time="12:00" big titleKey="itinerary.churchWedding" />
+
+      <TimelineItem time="12:45" side="right" titleKey="itinerary.departureToSmederevo" />
+
+      <TimelineItem time="14:00" titleKey="itinerary.arrivalSmederevo" locationKey="itinerary.address.smederevo" />
+
+      <TimelineItem time="15:00" big side="right" titleKey="itinerary.civilWedding" />
+
+      <TimelineItem time="15:30" titleKey="itinerary.photoSession" />
+
+      <TimelineItem time="16:30 – 17:00" side="right" titleKey="itinerary.firstDance" />
+
+      <TimelineItem time="19:00" titleKey="itinerary.toasts" />
+
+      <TimelineItem time="20:30" side="right" titleKey="itinerary.weddingCake" />
+
+      <TimelineItem time="00:00" titleKey="itinerary.officialEnd" />
+    </ul>
+
+    <Center class="mt-20">
+      <p class="text-base-content/50 text-xs">{t("itinerary.disclaimer")}</p>
+    </Center>
+  </Container>
+
+  <FlowerDivider type="2" />
+
+  <Container>
+    <ParticipationHeadline />
+  </Container>
+
+  <FlowerDivider type="3" />
+</Layout>

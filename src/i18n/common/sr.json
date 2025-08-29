@@ -36,7 +36,7 @@
     "home": "Почетна",
     "participation": "Потврдите учешће",
     "participation_short": "Учешће",
-    "program": "Програм"
+    "itinerary": "Програм"
   },
 
   "participation": {
@@ -52,7 +52,7 @@
     }
   },
 
-  "program": {
+  "itinerary": {
     "headline": "Наш посебни дан",
     "disclaimer": "Напомена: Овај програм је још увек подложан променама.",
 

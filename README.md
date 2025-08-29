@@ -15,7 +15,9 @@
 - SVARGA: make small-screen menu hamburger popup bigger for touch
 - SVARGA: once Website is done, add locale `de`, `re`
 
-## Report 29.8.2025
+## 📓 Tasks done
+
+> 29.8.2025
 
 - I will create web with `sr`, `en` first, other locales likes `de`, `ru` I will do at the end, when website is finished and texts are final
   - otherwise it would be slowing me down (I already need to do 1x extra copy per text to EN, then I would need to do 3x extra)

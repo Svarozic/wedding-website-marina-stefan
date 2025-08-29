@@ -17,20 +17,49 @@ import ParticipationHeadline from "@components/ParticipationHeadline.astro";
 
   <Container>
     <ul class="timeline timeline-vertical timeline-snap-icon max-md:timeline-compact">
-      <TimelineItem time="7:00" titleKey="program.gathering" locationKey="program.location.beograd" />
+      <TimelineItem time="6:45 – 07:00" titleKey="program.gathering" locationKey="program.address.bulevar" />
 
-      <TimelineItem time="8:30" side="right" titleKey="program.brideArrival" locationKey="program.location.svilajnac" />
+      <TimelineItem time="7:30" side="right" titleKey="program.departureToSvilajnac" />
 
-      <TimelineItem time="12:00" big titleKey="program.church" locationKey="program.location.church" />
+      <TimelineItem time="08:30" titleKey="program.gatheringBridesHome" locationKey="program.address.svilajnac" />
+
+      <TimelineItem time="08:45 – 09:00" side="right" titleKey="program.arrivalSvilajnac" />
+
+      <TimelineItem time="10:00" titleKey="program.departureToBeograd" />
 
       <TimelineItem
-        time="14:00"
+        time="11:30 – 11:45"
         side="right"
-        titleKey="program.weddingCelebration"
-        locationKey="program.location.smederevo"
+        titleKey="program.arrivalBeograd"
+        locationKey="program.address.church"
       />
 
-      <TimelineItem time="15:00" titleKey="program.civilWedding" locationKey="program.location.smederevo" />
+      <TimelineItem time="12:00" big titleKey="program.churchWedding" />
+
+      <TimelineItem time="12:45" side="right" titleKey="program.departureToSmederevo" />
+
+      <TimelineItem time="14:00" titleKey="program.arrivalSmederevo" locationKey="program.address.smederevo" />
+
+      <TimelineItem time="15:00" big side="right" titleKey="program.civilWedding" />
+
+      <TimelineItem time="15:30" titleKey="program.photoSession" />
+
+      <TimelineItem time="16:30 – 17:00" side="right" titleKey="program.firstDance" />
+
+      <TimelineItem time="19:00" titleKey="program.toasts" />
+
+      <TimelineItem time="20:30" side="right" titleKey="program.weddingCake" />
+
+      <TimelineItem time="00:00" titleKey="program.officialEnd" />
+
+      <!--<TimelineItem-->
+      <!--  time="14:00"-->
+      <!--  side="right"-->
+      <!--  titleKey="program.weddingCelebration"-->
+      <!--  locationKey="program.location.smederevo"-->
+      <!--/>-->
+
+      <!--<TimelineItem time="15:00" titleKey="program.civilWedding" locationKey="program.location.smederevo" />-->
     </ul>
 
     <Center class="mt-20">

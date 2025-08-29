@@ -2,6 +2,8 @@
   "title": "Marina & Stefan",
   "lastUpdate": "Last update",
 
+  "when": "When",
+  "date": "9. November 2025",
   "moreInfo": "More info",
 
   "countdown": {
@@ -48,21 +50,29 @@
 
   "program": {
     "headline": "Our special day",
-
-    "brideArrival": "Arrival for the bride",
-    "church": "Wedding in the church",
-    "civilWedding": "Civil wedding ceremony",
     "disclaimer": "Please note: This program is still subject to change.",
-    "gathering": "Gathering of the wedding guests",
-    "weddingCelebration": "Start of the wedding celebration",
-    "when": "When",
-    "date": "9. November 2025",
 
-    "location": {
-      "beograd": "Belgrade",
-      "church": "Church of St. Dimitrije in New Belgrade",
-      "smederevo": "Smederevo",
-      "svilajnac": "Svilajnac"
+    "gathering": "Gathering of the wedding guests at the groom’s home",
+    "departureToSvilajnac": "Departure of the wedding guests for Svilajnac",
+    "gatheringBridesHome": "Gathering of wedding guests at the bride’s home",
+    "arrivalSvilajnac": "Arrival of the wedding guests from Belgrade, meeting with the bride",
+    "departureToBeograd": "Departure of all wedding guests for Belgrade",
+    "arrivalBeograd": "Arrival of the wedding guests and gathering at St. Dimitrije Church, Belgrade",
+    "churchWedding": "Church wedding",
+    "departureToSmederevo": "Departure of the wedding guests for Smederevo",
+    "arrivalSmederevo": "Arrival of the wedding guests and gathering at the Villa Jugovo S, Smederevo",
+    "civilWedding": "Civil wedding at the Villa Jugovo S",
+    "photoSession": "Official photo session with the bride and groom",
+    "firstDance": "Grand entrance of the bride and groom and the first dance",
+    "toasts": "Formal speeches/toasts (fathers, Saša Schneider)",
+    "weddingCake": "Wedding cake",
+    "officialEnd": "Official end of the celebration",
+
+    "address": {
+      "bulevar": "Bulevar Zorana Đinđića 123đ, 11070 Belgrade",
+      "svilajnac": "Mice Marković 37a, 35210 Svilajnac",
+      "church": "Omladinskih brigada 3a, 11070 Belgrade",
+      "smederevo": "Beogradski put bb, 11300 Smederevo"
     }
   }
 }

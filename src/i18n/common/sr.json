@@ -1,7 +1,10 @@
 {
-  "lastUpdate": "Poslednje ažuriranje",
+  "title": "Марина & Стефан",
+  "lastUpdate": "Последње ажурирање",
 
-  "moreInfo": "Više informacija",
+  "when": "Када",
+  "date": "9. новембра 2025",
+  "moreInfo": "Више информација",
 
   "countdown": {
     "days": "dani",
@@ -26,10 +29,10 @@
   },
 
   "nav": {
-    "home": "Početna",
-    "participation": "Potvrdite učešće",
-    "participation_short": "Učešće",
-    "program": "Program"
+    "home": "Почетна",
+    "participation": "Потврдите учешће",
+    "participation_short": "Учешће",
+    "program": "Програм"
   },
 
   "participation": {
@@ -46,22 +49,30 @@
   },
 
   "program": {
-    "headline": "Naš posebni dan",
+    "headline": "Наш посебни дан",
+    "disclaimer": "Напомена: Овај програм је још увек подложан променама.",
 
-    "brideArrival": "Dolazak po mladu",
-    "church": "Venčanje u crkvi",
-    "civilWedding": "Državno venčanje",
-    "disclaimer": "Ovaj program se još može promjenunti",
-    "gathering": "Okupljanje svatova",
-    "weddingCelebration": "Početak svatova",
-    "when": "Kada",
-    "date": "9. Novembar 2025",
+    "gathering": "Окупљање сватова код младожење",
+    "departureToSvilajnac": "Полазак сватова за Свилајнац",
+    "gatheringBridesHome": "Окупаљање сватова код младе",
+    "arrivalSvilajnac": "Долазак сватова из Београда, сусрет с младом",
+    "departureToBeograd": "Полазак свих сватова за Београд",
+    "arrivalBeograd": "Долазак сватова и окуппљање код храма Св.великомученика Димитрија",
+    "churchWedding": "Црквено венчање",
+    "departureToSmederevo": "Полазак сватова за Смедерево",
+    "arrivalSmederevo": "Долазак сватова и окупљање гостију у Вили Југово С у Смедереву",
+    "civilWedding": "Грађанско венчање у вили Југово С",
+    "photoSession": "Сликање с младенцима",
+    "firstDance": "Свечани улазак младенаца и младеначки први плес",
+    "toasts": "Свечани говор/здравица (очеви, Саша Шнајдер)",
+    "weddingCake": "Младеначка торта",
+    "officialEnd": "Званични завршетак славља",
 
-    "location": {
-      "beograd": "Beograd",
-      "church": "Crkva Sv. Dimitrija u Novom Beogradu",
-      "smederevo": "Smederevo",
-      "svilajnac": "Svilajnac"
+    "address": {
+      "bulevar": "Булевар Зорана Ђинђића 123ђ, 11070 Београд",
+      "svilajnac": "Мице Марковић 37а, 35210 Свилајнац",
+      "church": "Омладинских бригада 3а, 11070 Београд",
+      "smederevo": "Београдски пут бб, 11300 Смедерево"
     }
   }
 }

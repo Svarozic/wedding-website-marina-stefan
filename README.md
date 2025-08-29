@@ -12,16 +12,22 @@
 
 ## SVARGA: for me
 
+- SVARGA: convert to serbian cyrillic whole sr.json
+- SVARGA: fix Marina Stefan titel to be in Cyrilic
+- SVARGA: make small-screen menu hamburger popup bigger for touch
+
 - SVARGA: once Website is done, add locale `de`, `re`
 
 ## Report 29.8.2025
 
 - I will create web with `sr`, `en` first, other locales likes `de`, `ru` I will do at the end, when website is finished and texts are final
   - otherwise it would be slowing me down (I already need to do 1x extra copy per text to EN, then I would need to do 3x extra)
-  - taking care of `sr` texts and their translations (and keeping it in sync) is your responsibility
+  - taking care of `sr` texts and their translations (and keeping it in sync) is your responsibility, I suggest to use from now Edit mode, so I can see "changes", otherwise you would need to do full review of website <> texts to tell and show me what to change
 - Fonts "Didact Gothic" for sans and "Great Vibes" for serif are used
 - Keeping 3x "flower dividers" that we had on our website too.
-  - I used 3x to not have only 1x to repeat all the time, if you want only one "flower divider", let me know and I will remove others
+  - I used 3x to not have only 1x to repeat all the time, if you want only one "flower divider" let me know, and I will remove others
+- page `/programm` was updated by agenda from the GoogleDoc "Текст за веб страницу"
+- fix: `"Када"` and `"9. новембра 2025"`
 
 ## Tech Notes
 

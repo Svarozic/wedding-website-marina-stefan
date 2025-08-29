@@ -7,13 +7,13 @@
   "moreInfo": "Више информација",
 
   "countdown": {
-    "days": "dani",
-    "hours": "sati",
-    "minutes": "minuti",
-    "seconds": "sekunde",
+    "days": "дани",
+    "hours": "сати",
+    "minutes": "минути",
+    "seconds": "секунде",
 
-    "until": "dok ne kažemo Da",
-    "after": "ono što smo sebi rekli Da"
+    "until": "док не кажемо Да",
+    "after": "оно што смо себи рекли Да"
   },
 
   "hero": {
@@ -23,9 +23,9 @@
   },
 
   "languagePicker": {
-    "tooltip": "Izaberite jezik",
-    "serbian": "Srpski",
-    "english": "Engleski"
+    "tooltip": "Изаберите језик",
+    "serbian": "Српски",
+    "english": "Енглески"
   },
 
   "nav": {
@@ -36,15 +36,15 @@
   },
 
   "participation": {
-    "confirm": "Potvrdite učešće",
+    "confirm": "Потврдите учешће",
     "headline": {
-      "top": "Dolazite?",
-      "main": "Obavjestite nas"
+      "top": "Долазите?",
+      "main": "Обавестите нас"
     },
     "problem": {
-      "headline": "Ne vidite Google Formular?",
-      "text": "Žao nam je, nešto je pošlo po zlu. Molimo pokušajte otvoriti ovaj link.",
-      "open": "Otvori"
+      "headline": "Не видите Google Формулар?",
+      "text": "Жао нам је, нешто је пошло по злу. Молимо покушајте отворити овај линк.",
+      "open": "Отвори"
     }
   },
 

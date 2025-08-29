@@ -12,7 +12,6 @@
 
 ## SVARGA: for me
 
-- SVARGA: convert to serbian cyrillic whole sr.json
 - SVARGA: fix Marina Stefan titel to be in Cyrilic
 - SVARGA: make small-screen menu hamburger popup bigger for touch
 

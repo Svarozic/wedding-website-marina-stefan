@@ -17,7 +17,7 @@ const LANGUAGES: Record<Locale, { pngSrc: string; label: string }> = {
 ---
 
 <div class="dropdown dropdown-end">
-  <label tabindex="0" class="tooltip tooltip-left cursor-pointer" data-tip={t("languagePicker.tooltip")}>
+  <div tabindex="0" role="button" class="tooltip tooltip-left cursor-pointer" data-tip={t("languagePicker.tooltip")}>
     <span class="flex items-center -space-x-3">
       {
         Object.keys(LANGUAGES)
@@ -39,9 +39,9 @@ const LANGUAGES: Record<Locale, { pngSrc: string; label: string }> = {
         </span>
       </span>
     </span>
-  </label>
+  </div>
 
-  <ul tabindex="0" class="menu dropdown-content menu-sm rounded-box md:menu-md z-[2] mt-3 bg-white p-2 shadow-xl">
+  <ul tabindex="0" class="menu dropdown-content rounded-box z-2 mt-4 bg-white p-2 shadow-xl">
     {
       Object.keys(LANGUAGES)
         .filter((langCode) => langCode !== astroI18n.locale)

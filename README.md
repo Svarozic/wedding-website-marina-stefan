@@ -12,7 +12,6 @@
 
 ## SVARGA: for me
 
-- SVARGA: make small-screen menu hamburger popup bigger for touch
 - SVARGA: once Website is done, add locale `de`, `re`
 
 ## 📓 Tasks done

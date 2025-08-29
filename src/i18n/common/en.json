@@ -1,10 +1,13 @@
 {
-  "title": "Marina & Stefan",
+  "marina": "Marina",
+  "stefan": "Stefan",
   "lastUpdate": "Last update",
 
   "when": "When",
   "date": "9. November 2025",
   "moreInfo": "More info",
+  "copyright1": "Copyright ©",
+  "copyright2": "- All right reserved",
 
   "countdown": {
     "days": "days",

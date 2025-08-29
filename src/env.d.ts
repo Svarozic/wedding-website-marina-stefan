@@ -12,11 +12,14 @@ type RouteParameters = {
 };
 type Route = keyof RouteParameters;
 type TranslationVariables = {
-  title: object | undefined;
+  marina: object | undefined;
+  stefan: object | undefined;
   lastUpdate: object | undefined;
   when: object | undefined;
   date: object | undefined;
   moreInfo: object | undefined;
+  copyright1: object | undefined;
+  copyright2: object | undefined;
   "countdown.days": object | undefined;
   "countdown.hours": object | undefined;
   "countdown.minutes": object | undefined;

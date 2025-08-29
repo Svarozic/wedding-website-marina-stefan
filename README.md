@@ -12,9 +12,7 @@
 
 ## SVARGA: for me
 
-- SVARGA: fix Marina Stefan titel to be in Cyrilic
 - SVARGA: make small-screen menu hamburger popup bigger for touch
-
 - SVARGA: once Website is done, add locale `de`, `re`
 
 ## Report 29.8.2025
@@ -27,6 +25,8 @@
   - I used 3x to not have only 1x to repeat all the time, if you want only one "flower divider" let me know, and I will remove others
 - page `/programm` was updated by agenda from the GoogleDoc "Текст за веб страницу"
 - fix: `"Када"` and `"9. новембра 2025"`
+- fix: Title `Marina & Stefan` uses Cyrillic in `sr` locale
+- fix: All `sr` locale texts uses Cyrillic
 
 ## Tech Notes
 

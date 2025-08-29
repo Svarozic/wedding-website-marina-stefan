@@ -24,6 +24,7 @@ type TranslationVariables = {
   "countdown.hours": object | undefined;
   "countdown.minutes": object | undefined;
   "countdown.seconds": object | undefined;
+  "countdown.before": object | undefined;
   "countdown.until": object | undefined;
   "countdown.after": object | undefined;
   "hero.headline1": object | undefined;

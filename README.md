@@ -29,6 +29,10 @@
 - fix: `"Када"` and `"9. новембра 2025"`
 - fix: Title `Marina & Stefan` uses Cyrillic in `sr` locale
 - fix: All `sr` locale texts uses Cyrillic
+- fix: `Countdown` to use your text
+  - after the church wedding ceremony at 12:00, it will switch automatically to
+    - SR: `прошао, оно што смо себи рекли Да`
+    - EN: `passed, what we've told ourselves Yes`
 
 ## Tech Notes
 

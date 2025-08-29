@@ -20,6 +20,8 @@
   - otherwise it would be slowing me down (I already need to do 1x extra copy per text to EN, then I would need to do 3x extra)
   - taking care of `sr` texts and their translations (and keeping it in sync) is your responsibility
 - Fonts "Didact Gothic" for sans and "Great Vibes" for serif are used
+- Keeping 3x "flower dividers" that we had on our website too.
+  - I used 3x to not have only 1x to repeat all the time, if you want only one "flower divider", let me know and I will remove others
 
 ## Tech Notes
 

@@ -13,7 +13,6 @@
 ## TODOs 📓 for me
 
 - SVARGA: add `404.html` and `500.html` and "stain png" to cover UI
-- SVARGA: remove `itinerary.toasts` from program
 - SVARGA: replace divider images, use the ones from Ivana
 - SVARGA: Fix `CountdownHeadline`
   ```

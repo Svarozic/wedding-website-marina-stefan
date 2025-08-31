@@ -57,7 +57,6 @@ type TranslationVariables = {
   "itinerary.civilWedding": object | undefined;
   "itinerary.photoSession": object | undefined;
   "itinerary.firstDance": object | undefined;
-  "itinerary.toasts": object | undefined;
   "itinerary.weddingCake": object | undefined;
   "itinerary.officialEnd": object | undefined;
   "itinerary.address.bulevar": object | undefined;

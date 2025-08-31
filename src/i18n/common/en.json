@@ -10,9 +10,21 @@
   "copyright2": "- All right reserved",
 
   "countdown": {
+    "days{{ days: 0 }}": "days",
+    "days{{ days: 1 }}": "day",
+    "days{{ days: 2 }}": "days",
     "days": "days",
+    "hours{{ hours: 0 }}": "hours",
+    "hours{{ hours: 1 }}": "hour",
+    "hours{{ hours: 2 }}": "hours",
     "hours": "hours",
+    "minutes{{ minutes: 0 }}": "minutes",
+    "minutes{{ minutes: 1 }}": "minute",
+    "minutes{{ minutes: 2 }}": "minutes",
     "minutes": "minutes",
+    "seconds{{ seconds: 0 }}": "seconds",
+    "seconds{{ seconds: 1 }}": "second",
+    "seconds{{ seconds: 2 }}": "seconds",
     "seconds": "seconds",
 
     "before": "Dear ones, only",

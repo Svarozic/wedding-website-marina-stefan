@@ -18,28 +18,28 @@ const { withHeadline = false } = Astro.props;
   <Center>
     <div class="grid auto-cols-max grid-flow-col gap-5 text-center">
       <div class="flex flex-col">
-        <span class="font-serif text-6xl lg:text-7xl xl:text-8xl">
-          <span data-id="myCountdownDayValue">00</span>
+        <span class="countdown font-serif text-6xl lg:text-7xl xl:text-8xl">
+          <span data-id="myCountdownDayValue" style="--value:0;"></span>
         </span>
-        {t("countdown.days")}
+        <span data-id="myCountdownDayText">{t("countdown.days")}</span>
       </div>
       <div class="flex flex-col">
         <span class="countdown font-serif text-6xl lg:text-7xl xl:text-8xl">
           <span data-id="myCountdownHourValue" style="--value:0;"></span>
         </span>
-        {t("countdown.hours")}
+        <span data-id="myCountdownHourText">{t("countdown.hours")}</span>
       </div>
       <div class="flex flex-col">
         <span class="countdown font-serif text-6xl lg:text-7xl xl:text-8xl">
           <span data-id="myCountdownMinuteValue" style="--value:0;"></span>
         </span>
-        {t("countdown.minutes")}
+        <span data-id="myCountdownMinuteText">{t("countdown.minutes")}</span>
       </div>
       <div class="flex flex-col">
         <span class="countdown font-serif text-6xl lg:text-7xl xl:text-8xl">
           <span data-id="myCountdownSecondValue" style="--value:0;"></span>
         </span>
-        {t("countdown.seconds")}
+        <span data-id="myCountdownSecondText">{t("countdown.seconds")}</span>
       </div>
     </div>
   </Center>
@@ -100,25 +100,42 @@ const { withHeadline = false } = Astro.props;
       const seconds = Math.abs(secondsDiff >= 0 ? Math.floor(secondsDiff) : Math.ceil(secondsDiff));
 
       // Display the result in the elements
+
+      // BUT days, daisy countdown can handle only 0..99,
+      this.querySelector<HTMLSpanElement>('[data-id="myCountdownDayValue"]')?.style.setProperty(
+        "--value",
+        hours.toString(),
+      );
+      const daysTextEl = this.querySelector<HTMLSpanElement>('[data-id="myCountdownDayText"]');
+      if (daysTextEl) {
+        daysTextEl.innerText = t("countdown.days", { days: days });
+      }
+
       this.querySelector<HTMLSpanElement>('[data-id="myCountdownHourValue"]')?.style.setProperty(
         "--value",
         hours.toString(),
       );
+      const hoursTextEl = this.querySelector<HTMLSpanElement>('[data-id="myCountdownHourText"]');
+      if (hoursTextEl) {
+        hoursTextEl.innerText = t("countdown.hours", { hours: hours });
+      }
+
       this.querySelector<HTMLSpanElement>('[data-id="myCountdownMinuteValue"]')?.style.setProperty(
         "--value",
         minutes.toString(),
       );
+      const minutesTextEl = this.querySelector<HTMLSpanElement>('[data-id="myCountdownMinuteText"]');
+      if (minutesTextEl) {
+        minutesTextEl.innerText = t("countdown.minutes", { minutes: minutes });
+      }
+
       this.querySelector<HTMLSpanElement>('[data-id="myCountdownSecondValue"]')?.style.setProperty(
         "--value",
         seconds.toString(),
       );
-
-      // BUT days, daisy countdown can handle only 0..99,
-      // - so we simply render it as text
-      // - and if 0 then '00' to look nice like countdown from daisy
-      const dayValueEl = this.querySelector<HTMLSpanElement>('[data-id="myCountdownDayValue"]');
-      if (dayValueEl) {
-        dayValueEl.innerHTML = days != 0 ? days.toString() : "00";
+      const secondsTextEl = this.querySelector<HTMLSpanElement>('[data-id="myCountdownSecondText"]');
+      if (secondsTextEl) {
+        secondsTextEl.innerText = t("countdown.seconds", { seconds: seconds });
       }
 
       const myCountdownHeadline = this.querySelector<HTMLHeadingElement>('[data-id="myCountdownHeadline"]');

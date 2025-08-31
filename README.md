@@ -14,12 +14,6 @@
 
 - SVARGA: add `404.html` and `500.html` and "stain png" to cover UI
 - SVARGA: replace divider images, use the ones from Ivana
-- SVARGA: Fix `CountdownHeadline`
-  ```
-  Ако је у питању 1 онда треба ставити дан/час/минут/секунд
-  Ако су у питању бројеви 2-4 онда треба ставити часА
-  А ако су у питању сви остали бројеви, онда треба оставити овако како сада јесте данА/часовА/минутА/секундИ
-  ```
 - SVARGA: parallax effect is not working in Stefan Phone (probably Safari / Iphone problem)
 - SVARGA: once Website is done, add locale `de`, `ru`
   - [ ] add locales
@@ -46,7 +40,7 @@
 
 ## Tech Notes
 
-- [astro-i18n](https://github.com/alexandre-fernandez/astro-i18nÏ)
+- [astro-i18n](https://github.com/alexandre-fernandez/astro-i18n)
 - [daisyUI](https://daisyui.com/)
 - [tailwind](https://tailwindcss.com/)
   - [Default Theme Variables](https://tailwindcss.com/docs/theme#default-theme-variable-reference)

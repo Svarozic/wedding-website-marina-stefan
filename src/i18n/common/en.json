@@ -42,8 +42,8 @@
   "participation": {
     "confirm": "Confirm participation",
     "headline": {
-      "top": "Will you come?",
-      "main": "Let us know"
+      "top": "Are you coming?",
+      "main": "We look forward to your confirmation"
     },
     "problem": {
       "headline": "You don't see the Google Form?",

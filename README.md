@@ -6,13 +6,25 @@
 - [Текст за веб страницу](https://docs.google.com/document/d/1uIygM2bqCekvzS63Dw2fz9sVsuTuegbokgIY0fqWiKY/edit?tab=t.r8gml6axpu3e)
 - [Текст за позивницу](https://docs.google.com/document/d/1xiFIkUnXWtfhqpasaTw6ertfrJmpW4gReoNbLyBijv8/edit?tab=t.0)
 
-## TODOs for Stefan
+## TODOs 📓 for Stefan
 
 - TODO: once Website is done, search for `Lorem ipsum` and finish translation/text
 
-## SVARGA: for me
+## TODOs 📓 for me
 
-- SVARGA: once Website is done, add locale `de`, `re`
+- SVARGA: add `404.html` and `500.html` and "stain png" to cover UI
+- SVARGA: remove `itinerary.toasts` from program
+- SVARGA: replace divider images, use the ones from Ivana
+- SVARGA: Fix `CountdownHeadline`
+  ```
+  Ако је у питању 1 онда треба ставити дан/час/минут/секунд
+  Ако су у питању бројеви 2-4 онда треба ставити часА
+  А ако су у питању сви остали бројеви, онда треба оставити овако како сада јесте данА/часовА/минутА/секундИ
+  ```
+- SVARGA: parallax effect is not working in Stefan Phone (probably Safari / Iphone problem)
+- SVARGA: once Website is done, add locale `de`, `ru`
+  - [ ] add locales
+  - [ ] add GoogleForm links (default to `en`)
 
 ## 📓 Tasks done
 

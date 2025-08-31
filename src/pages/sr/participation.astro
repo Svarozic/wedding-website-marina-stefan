@@ -8,11 +8,10 @@ import FlowerDivider from "@components/FlowerDivider.astro";
 
 const locale = astroI18n.locale ?? "en";
 
-// SVARGA: Use correct google form links from Stefan
 const GOOGLE_FORM_URL =
   locale === "sr"
-    ? "https://docs.google.com/forms/d/e/1FAIpQLSe-8rIUQyWenwayjZ1zN8vJ8lQsUyLzyq3I2U3B8kxFueErlw/viewform"
-    : "https://docs.google.com/forms/d/e/1FAIpQLSfkSdx9BCGXOSuWZNma7RC-WegITGV_hFZE47-EQNSdR-WPrA/viewform";
+    ? "https://docs.google.com/forms/d/e/1FAIpQLScDC6Hp0NXHb43LgQs_vgjsRflMC1znHXr76wxBhNaxD9eg6A/viewform"
+    : "https://docs.google.com/forms/d/e/1FAIpQLSefR81EPixSy8eeBQGfR9ik6Y5457f5tJCQFIkN1AZiTU_c8g/viewform";
 const GOOGLE_FORM_IFRAME_LINK = `${GOOGLE_FORM_URL}?embedded=true&hl=${locale}`;
 const GOOGLE_FORM_LINK = `${GOOGLE_FORM_URL}?usp=sf_link&hl=${locale}`;
 ---
@@ -22,16 +21,14 @@ const GOOGLE_FORM_LINK = `${GOOGLE_FORM_URL}?usp=sf_link&hl=${locale}`;
     <Headline top={t("participation.headline.top")}>{t("participation.headline.main")}</Headline>
 
     <iframe
-      src="https://placehold.co/600x1800?text=placeholder+for+your+form+in+each+language"
+      src={GOOGLE_FORM_IFRAME_LINK}
       width="100%"
-      height="1800"
+      height="3250"
       frameborder="0"
       marginheight="0"
       marginwidth="0"
       loading="lazy"></iframe>
-  </Container>
 
-  <Container>
     <div role="alert" class="alert bg-white">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-primary h-6 w-6 shrink-0"
         ><path
@@ -43,8 +40,7 @@ const GOOGLE_FORM_LINK = `${GOOGLE_FORM_URL}?usp=sf_link&hl=${locale}`;
       <div class="w-full min-w-0">
         <h4 class="text-sm">{t("participation.problem.headline")}</h4>
         <div class="text-xs break-normal">{t("participation.problem.text")}</div>
-        <!--// SVARGA: add correct google form link from Stefan-->
-        <!--<a class="link link-primary text-xs break-words" href={GOOGLE_FORM_LINK} target="_blank">{GOOGLE_FORM_LINK}</a>-->
+        <a class="link link-primary text-xs break-words" href={GOOGLE_FORM_LINK} target="_blank">{GOOGLE_FORM_LINK}</a>
       </div>
     </div>
   </Container>

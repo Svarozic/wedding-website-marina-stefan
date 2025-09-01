@@ -19,25 +19,25 @@ const { withHeadline = false } = Astro.props;
     <div class="grid auto-cols-max grid-flow-col gap-5 text-center">
       <div class="flex flex-col">
         <span class="countdown font-serif text-6xl lg:text-7xl xl:text-8xl">
-          <span data-id="myCountdownDayValue" style="--value:0;"></span>
+          <span class="w-16 lg:w-24 xl:w-28" data-id="myCountdownDayValue" style="--value:0;"></span>
         </span>
         <span data-id="myCountdownDayText">{t("countdown.days")}</span>
       </div>
       <div class="flex flex-col">
         <span class="countdown font-serif text-6xl lg:text-7xl xl:text-8xl">
-          <span data-id="myCountdownHourValue" style="--value:0;"></span>
+          <span class="w-16 lg:w-24 xl:w-28" data-id="myCountdownHourValue" style="--value:0;"></span>
         </span>
         <span data-id="myCountdownHourText">{t("countdown.hours")}</span>
       </div>
       <div class="flex flex-col">
         <span class="countdown font-serif text-6xl lg:text-7xl xl:text-8xl">
-          <span data-id="myCountdownMinuteValue" style="--value:0;"></span>
+          <span class="w-16 lg:w-24 xl:w-28" data-id="myCountdownMinuteValue" style="--value:0;"></span>
         </span>
         <span data-id="myCountdownMinuteText">{t("countdown.minutes")}</span>
       </div>
       <div class="flex flex-col">
         <span class="countdown font-serif text-6xl lg:text-7xl xl:text-8xl">
-          <span data-id="myCountdownSecondValue" style="--value:0;"></span>
+          <span class="w-16 lg:w-24 xl:w-28" data-id="myCountdownSecondValue" style="--value:0;"></span>
         </span>
         <span data-id="myCountdownSecondText">{t("countdown.seconds")}</span>
       </div>
@@ -59,8 +59,10 @@ const { withHeadline = false } = Astro.props;
   const msgUntil = "... " + t("countdown.until");
   const msgAfter = "... " + t("countdown.after");
 
+  // On November 9, 2025, lunchtime in Belgrade (say 12:00 noon local time CET) is:
+  // Belgrade time: 2025-11-09 12:00 CET (UTC+1)
+  // UTC time: 2025-11-09 11:00 UTC
   const COUNT_DOWN_DATE = new Date("2025-11-09T11:00:00.000Z").getTime();
-  // const COUNT_DOWN_DATE = new Date("2024-09-11T13:33:35.000Z").getTime();
 
   class MyCountdownHeadline extends HTMLElement {
     private intervalId: any = null;
@@ -95,6 +97,7 @@ const { withHeadline = false } = Astro.props;
       // Time calculations for days, hours, minutes and seconds
       // floor down if positive (time to wedding), ceil up if negative (time from wedding)
       const days = Math.abs(daysDiff >= 0 ? Math.floor(daysDiff) : Math.ceil(daysDiff));
+      console.log(`SVARGA: days`, days); // SVARGA: remove console.log
       const hours = Math.abs(hoursDiff >= 0 ? Math.floor(hoursDiff) : Math.ceil(hoursDiff));
       const minutes = Math.abs(minutesDiff >= 0 ? Math.floor(minutesDiff) : Math.ceil(minutesDiff));
       const seconds = Math.abs(secondsDiff >= 0 ? Math.floor(secondsDiff) : Math.ceil(secondsDiff));
@@ -104,7 +107,7 @@ const { withHeadline = false } = Astro.props;
       // BUT days, daisy countdown can handle only 0..99,
       this.querySelector<HTMLSpanElement>('[data-id="myCountdownDayValue"]')?.style.setProperty(
         "--value",
-        hours.toString(),
+        days.toString(),
       );
       const daysTextEl = this.querySelector<HTMLSpanElement>('[data-id="myCountdownDayText"]');
       if (daysTextEl) {

@@ -18,6 +18,7 @@
 - SVARGA: once Website is done, add locale `de`, `ru`
   - [ ] add locales
   - [ ] add GoogleForm links (default to `en`)
+- SVARGA: AFTER WEDDING: fix CountdownHeadline, to not have dynamic day countdown, as it can't handle higher number as `99`
 
 ## 📓 Tasks done
 

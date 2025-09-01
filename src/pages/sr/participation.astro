@@ -8,8 +8,10 @@ import FlowerDivider from "@components/FlowerDivider.astro";
 
 const locale = astroI18n.locale ?? "en";
 
-// SVARGA: DE locale
-//  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTOWuc8GeWRhgClebcAGIZVq6IduIskBtK1sQhsNFECgGykw/viewform?embedded=true" width="640" height="3608" frameborder="0" marginheight="0" marginwidth="0">Учитава се…</iframe>
+// SVARGA: DE + RU locale GoogleForm lins:
+//  - DE https://docs.google.com/forms/d/e/1FAIpQLScTOWuc8GeWRhgClebcAGIZVq6IduIskBtK1sQhsNFECgGykw/viewform
+//  - RU https://docs.google.com/forms/d/e/1FAIpQLSc1HgHdRrA0jTbVAjKmwQmm_nrbep6TbIe8UjpOr4mcfTo8uw/viewform
+// CHECK ALSO iframe height attribute, if it can fit all forms without a scrollbar
 
 const GOOGLE_FORM_URL =
   locale === "sr"

@@ -13,8 +13,10 @@
 ## TODOs 📓 for me
 
 - SVARGA: add `404.html` and `500.html` and "stain png" to cover UI
-- SVARGA: replace divider images, use the ones from Ivana
+- SVARGA: get Color pallete from Ivana, set the main one and secodary one, keep the dividers as they are
+- SVARGA: get Logo from Ivana and use it in Navbar and in Footer
 - SVARGA: parallax effect is not working in Stefan Phone (probably Safari / Iphone problem)
+- SVARGA: Add video from Stefan https://drive.google.com/file/d/1-bsDGK7ItICInfLC0DnLwHe0FEnlTqA1/view to index page next to Lorum Impsum , to hero component
 - SVARGA: once Website is done, add locale `de`, `ru`
   - [ ] add locales
   - [ ] add GoogleForm links (default to `en`)

@@ -1,0 +1,16 @@
+---
+import { t } from "astro-i18n";
+
+import Layout from "@layouts/Layout.astro";
+import ComingSoon from "@components/ComingSoon.astro";
+
+interface Props {
+  error: unknown;
+}
+
+const { error } = Astro.props;
+---
+
+<Layout>
+  <ComingSoon headline={t("404.headline")} statement={error instanceof Error ? error.message : "Unknown error"} />
+</Layout>

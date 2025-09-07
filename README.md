@@ -22,7 +22,6 @@
 
 ## TODOs 📓 for me
 
-- SVARGA: add `404.html` and `500.html` and "stain png" to cover UI
 - SVARGA: get Logo from Ivana and use it in Navbar and in Footer
 - SVARGA: parallax effect is not working in Stefan Phone (probably Safari / Iphone problem)
 - SVARGA: Add video from Stefan https://drive.google.com/file/d/1-bsDGK7ItICInfLC0DnLwHe0FEnlTqA1/view to index page next to Lorum Impsum , to hero component

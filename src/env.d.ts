@@ -12,6 +12,8 @@ type RouteParameters = {
 };
 type Route = keyof RouteParameters;
 type TranslationVariables = {
+  "404.headline": object | undefined;
+  "404.statement": object | undefined;
   marina: object | undefined;
   stefan: object | undefined;
   lastUpdate: object | undefined;

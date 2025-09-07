@@ -1,13 +1,33 @@
 @import "tailwindcss";
 
+/* Reset default margins and paddings */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 20px; /* overrides default 16px */
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.my-watercolor-paper-texture {
+  background-image: url("/watercolor-paper-texture_20240218.jpg");
+  background-repeat: repeat;
+}
+
 @plugin "daisyui" {
   themes: bumblebee --default;
   logs: false;
 
   /*
-   SVARGA: use include with parts to minimize size of page https://daisyui.com/docs/config/#include
-   include: button, input, select;
-   */
+     SVARGA: use include with parts to minimize size of page https://daisyui.com/docs/config/#include
+     include: button, input, select;
+     */
 }
 
 /*
@@ -21,26 +41,6 @@ see: https://daisyui.com/docs/themes/#how-to-customize-an-existing-theme
   --color-primary-content: white;
   --color-secondary: #ff8d7d;
   --color-secondary-content: white;
-}
-
-/* Reset default margins and paddings */
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background-color: #ffffff;
-}
-
-.my-watercolor-paper-texture {
-  background-image: url("/watercolor-paper-texture_20240218.jpg");
-  background-repeat: repeat;
-}
-
-html {
-  font-size: 20px; /* overrides default 16px */
 }
 
 @theme {

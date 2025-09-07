@@ -24,7 +24,6 @@
 
 - SVARGA: get Logo from Ivana and use it in Navbar and in Footer
 - SVARGA: parallax effect is not working in Stefan Phone (probably Safari / Iphone problem)
-- SVARGA: Add video from Stefan https://drive.google.com/file/d/1-bsDGK7ItICInfLC0DnLwHe0FEnlTqA1/view to index page next to Lorum Impsum , to hero component
 - SVARGA: once Website is done, add locale `de`, `ru`
   - [ ] add locales
   - [ ] add GoogleForm links (default to `en`)
@@ -35,6 +34,7 @@
 > 07.09.2025
 
 - Color palette: #C62343, #FEBDCA, #91B058, #FF8D7D, #0C88A4
+- Add video from Stefan to the index page next to "Lorum Impsum"
 
 > 29.8.2025
 

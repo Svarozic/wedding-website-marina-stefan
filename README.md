@@ -6,6 +6,16 @@
 - [Текст за веб страницу](https://docs.google.com/document/d/1uIygM2bqCekvzS63Dw2fz9sVsuTuegbokgIY0fqWiKY/edit?tab=t.r8gml6axpu3e)
 - [Текст за позивницу](https://docs.google.com/document/d/1xiFIkUnXWtfhqpasaTw6ertfrJmpW4gReoNbLyBijv8/edit?tab=t.0)
 
+## Color palette
+
+```
+#C62343
+#FEBDCA
+#91B058
+#FF8D7D
+#0C88A4
+```
+
 ## TODOs 📓 for Stefan
 
 - TODO: once Website is done, search for `Lorem ipsum` and finish translation/text
@@ -13,7 +23,6 @@
 ## TODOs 📓 for me
 
 - SVARGA: add `404.html` and `500.html` and "stain png" to cover UI
-- SVARGA: get Color pallete from Ivana, set the main one and secodary one, keep the dividers as they are
 - SVARGA: get Logo from Ivana and use it in Navbar and in Footer
 - SVARGA: parallax effect is not working in Stefan Phone (probably Safari / Iphone problem)
 - SVARGA: Add video from Stefan https://drive.google.com/file/d/1-bsDGK7ItICInfLC0DnLwHe0FEnlTqA1/view to index page next to Lorum Impsum , to hero component
@@ -23,6 +32,10 @@
 - SVARGA: AFTER WEDDING: fix CountdownHeadline, to not have dynamic day countdown, as it can't handle higher number as `99`
 
 ## 📓 Tasks done
+
+> 07.09.2025
+
+- Color palette: #C62343, #FEBDCA, #91B058, #FF8D7D, #0C88A4
 
 > 29.8.2025
 

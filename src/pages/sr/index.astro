@@ -13,18 +13,48 @@ import Center from "@components/Center.astro";
 <Layout>
   <Hero />
 
-  <div class="parallax-wedding-location flex h-96 w-full flex-col items-center justify-center lg:h-140">
+  <div class="relative flex h-96 w-full flex-col items-center justify-center overflow-hidden lg:h-140">
     <style>
-      .parallax-wedding-location {
-        background: url(/parallax-wedding-location-800-800.jpeg) no-repeat fixed center center;
+      #parallax-wedding-location {
+        background-image: url(/parallax-wedding-location-800-800.jpeg);
         background-size: cover;
+        background-position: center;
+      }
 
-        @media only screen and (min-width: 768px) {
-          background: url(/parallax-wedding-location.jpeg) no-repeat fixed center center;
-          background-size: cover;
+      @media only screen and (min-width: 768px) {
+        #parallax-wedding-location {
+          background-image: url(/parallax-wedding-location.jpeg);
         }
       }
     </style>
+    <div id="parallax-wedding-location" class="absolute inset-0 h-screen max-h-[80vh] will-change-transform"></div>
+    <script>
+      (function () {
+        const el = document.getElementById("parallax-wedding-location");
+        const speed = 0.4; // tweak 0.1–0.4
+        let ticking = false;
+
+        function onScroll() {
+          if (!ticking) {
+            requestAnimationFrame(() => {
+              if (el?.parentElement == null) {
+                return;
+              }
+              const rect = el.parentElement.getBoundingClientRect();
+              const offset = -rect.top * speed;
+              el.style.transform = `translate3d(0, ${offset}px, 0)`;
+              ticking = false;
+            });
+            ticking = true;
+          }
+        }
+
+        onScroll();
+
+        window.addEventListener("scroll", onScroll, { passive: true });
+      })();
+    </script>
+
     <div class="card mx-2 rounded-[var(--radius-field)] bg-white/50 p-4 shadow-xl backdrop-blur lg:p-8">
       <CountdownHeadline withHeadline />
     </div>
@@ -40,18 +70,47 @@ import Center from "@components/Center.astro";
 
   <FlowerDivider type="3" />
 
-  <div class="parallax-couple h-96 w-full lg:h-140">
+  <div class="relative flex h-96 w-full flex-col items-center justify-center overflow-hidden lg:h-140">
     <style>
-      .parallax-couple {
-        background: url(/parallax-couple-800-800.jpeg) no-repeat fixed center center;
+      #parallax-couple {
+        background-image: url(/parallax-couple-800-800.jpeg);
         background-size: cover;
+        background-position: center;
+      }
 
-        @media only screen and (min-width: 768px) {
-          background: url(/parallax-couple.jpeg) no-repeat fixed center center;
-          background-size: cover;
+      @media only screen and (min-width: 768px) {
+        #parallax-couple {
+          background-image: url(/parallax-couple.jpeg);
         }
       }
     </style>
+    <div id="parallax-couple" class="absolute inset-0 h-screen max-h-[80vh] will-change-transform"></div>
+    <script>
+      (function () {
+        const el = document.getElementById("parallax-couple");
+        const speed = 0.4; // tweak 0.1–0.4
+        let ticking = false;
+
+        function onScroll() {
+          if (!ticking) {
+            requestAnimationFrame(() => {
+              if (el?.parentElement == null) {
+                return;
+              }
+              const rect = el.parentElement.getBoundingClientRect();
+              const offset = -rect.top * speed;
+              el.style.transform = `translate3d(0, ${offset}px, 0)`;
+              ticking = false;
+            });
+            ticking = true;
+          }
+        }
+
+        onScroll();
+
+        window.addEventListener("scroll", onScroll, { passive: true });
+      })();
+    </script>
   </div>
 
   <Container>

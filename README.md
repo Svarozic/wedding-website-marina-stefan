@@ -23,7 +23,6 @@
 ## TODOs 📓 for me
 
 - SVARGA: get Logo from Ivana and use it in Navbar and in Footer
-- SVARGA: parallax effect is not working in Stefan Phone (probably Safari / Iphone problem)
 - SVARGA: once Website is done, add locale `de`, `ru`
   - [ ] add locales
   - [ ] add GoogleForm links (default to `en`)
@@ -35,6 +34,7 @@
 
 - Color palette: #C62343, #FEBDCA, #91B058, #FF8D7D, #0C88A4
 - Add video from Stefan to the index page next to "Lorum Impsum"
+- Fix the parallax effect on the index page
 
 > 29.8.2025
 

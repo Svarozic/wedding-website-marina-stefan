@@ -61,5 +61,7 @@
   - [Default Theme Variables](https://tailwindcss.com/docs/theme#default-theme-variable-reference)
   - [Tailwind icons](https://www.tailwindtoolbox.com/icons)
 - [font source](https://fontsource.org/)
+  - Great Vibes: https://fonts.google.com/specimen/Great+Vibes
+  - Didact Gothic https://fonts.google.com/specimen/Didact+Gothic
 - [Flaticon](https://www.flaticon.com/search?word=flag%20serbia)
 - [Placehold](https://placehold.co)

@@ -16,6 +16,8 @@
 #0C88A4
 ```
 
+`#F8F4E3` ivory color
+
 ## TODOs 📓 for Stefan
 
 - TODO: once Website is done, search for `Lorem ipsum` and finish translation/text

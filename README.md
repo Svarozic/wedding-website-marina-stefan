@@ -20,11 +20,17 @@
 
 ## TODOs 📓 for Stefan
 
-- TODO: once Website is done, search for `Lorem ipsum` and finish translation/text
 
 ## TODOs 📓 for me
 
+- SVARGA: add Logo to navbar without frame,
+  - put full logo with flowers and frame on all pages at the bottom (with frame with flowers) instead of divider
+- SVARGA: divide Program with parallax, after `Civil wedding at the Villa Jugovo S` create parallax block with waterfall photo `WhatsApp Image 2025-08-10 at 19.34.54.jpeg`
 - SVARGA: get Logo from Ivana and use it in Navbar and in Footer
+- SVARGA: put drawing of couple stefan marina to HERO, instead of video
+- SVARGA: generate `favicon` from logo and use it
+- SVARGA: add page `route`
+  - it will be like our "Discover slovakia", it meas headline + paragraf + image/google maps with point
 - SVARGA: once Website is done, add locale `de`, `ru`
   - [ ] add locales
   - [ ] add GoogleForm links (default to `en`)

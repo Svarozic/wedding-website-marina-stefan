@@ -1,0 +1,109 @@
+{
+  "marina": "Марина",
+  "stefan": "Стефан",
+  "lastUpdate": "Последнее обновление",
+
+  "when": "Когда",
+  "date": "9 ноября 2025",
+  "moreInfo": "Подробнее",
+  "copyright1": "Авторские права ©",
+  "copyright2": "- Все права защищены",
+
+  "countdown": {
+    "days{{ days: 0 }}": "дней",
+    "days{{ days: 1 }}": "день",
+    "days{{ days: 2 }}": "дня",
+    "days": "дней",
+    "hours{{ hours: 0 }}": "часов",
+    "hours{{ hours: 1 }}": "час",
+    "hours{{ hours: 2 }}": "часа",
+    "hours{{ hours: 3 }}": "часа",
+    "hours{{ hours: 4 }}": "часа",
+    "hours{{ hours: 5 }}": "часов",
+    "hours": "часов",
+    "minutes{{ minutes: 0 }}": "минута",
+    "minutes{{ minutes: 1 }}": "минут",
+    "minutes{{ minutes: 2 }}": "минута",
+    "minutes": "минута",
+    "seconds{{ seconds: 0 }}": "секунд",
+    "seconds{{ seconds: 1 }}": "секунда",
+    "seconds{{ seconds: 2 }}": "секунды",
+    "seconds{{ seconds: 3 }}": "секунды",
+    "seconds{{ seconds: 4 }}": "секунды",
+    "seconds{{ seconds: 5 }}": "секунд",
+    "seconds": "секунд",
+
+    "before": "Дорогие друзья, всего лишь",
+    "until": "осталось до того дня, когда наши жизни сплетутся в одно единое, а любовь станет нашей совместной путеводной нитью.\n",
+    "after": "прошло, что мы сказали себе Да"
+  },
+
+  "hero": {
+    "headline1": "Lorem ipsum dolor",
+    "headline2": "Lorem ipsum dolor sit amet, consetetur",
+    "headline3": "Lorem ipsum dolor sit amet, consetetur"
+  },
+
+  "languagePicker": {
+    "tooltip": "Выберите язык",
+    "english": "Английский",
+    "german": "Немецкий",
+    "russian": "Русский",
+    "serbian": "Сербский"
+  },
+
+  "nav": {
+    "home": "Главная",
+    "participation": "RSVP",
+    "participation_short": "RSVP",
+    "itinerary": "Маршрут",
+    "route": "Путь"
+  },
+
+  "participation": {
+    "confirm": "Подтвердить участие",
+    "headline": {
+      "top": "Вы приходите?",
+      "main": "Мы ждем вашего подтверждения"
+    },
+    "problem": {
+      "headline": "Вы не видите форму Google?",
+      "text": "Извините, что-то пошло не так. Пожалуйста, попробуйте эту ссылку",
+      "open": "Открыть"
+    }
+  },
+
+  "route": {
+    "headline": "Lorem ipsum dolor"
+  },
+
+  "itinerary": {
+    "headline": "Наш особенный день",
+    "disclaimer": "Пожалуйста, обратите внимание: Этот маршрут еще может быть изменен.",
+
+    "gathering": "Сбор гостей у дома женика",
+    "departureToSvilajnac": "Отъезд гостей в Свиляйнац",
+    "gatheringBridesHome": "Сбор гостей у дома невесты",
+    "arrivalSvilajnac": "Прибытие гостей из Белграда, встреча с невестой",
+    "departureToBeograd": "Отъезд всех гостей в Белград",
+    "arrivalBeograd": "Прибытие гостей и сбор у собора Святого великомученика Димитрия",
+    "churchWedding": "Церковное венчание",
+    "departureToSmederevo": "Отъезд гостей в Смедерево",
+    "arrivalSmederevo": "Прибытие гостей и сбор у Виллы Югово С, Смедерево",
+    "civilWedding": "Гражданская регистрация брака в Вилле Югово С",
+    "weddingCake": "Свадебный торт",
+    "officialEnd": "Официальное окончание торжества",
+
+    "address": {
+      "bulevar": "Бульвар Зорана Ђинђића 123ђ, 11070 Белград",
+      "svilajnac": "Мице Марковић 37а, 35210 Свилајнац",
+      "church": "Омладинских бригада 3а, 11070 Белград",
+      "smederevo": "Београдски пут бб, 11300 Смедерево"
+    }
+  },
+
+  "404": {
+    "headline": "Ой!",
+    "statement": "Ну, ну, ну... похоже, вам удалось нас удивить и потерять страницу в процессе! Как насчет того, чтобы насладиться спокойной прогулкой обратно на нашу красивую домашнюю страницу?"
+  }
+}

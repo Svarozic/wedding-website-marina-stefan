@@ -1,17 +1,27 @@
 ---
 import { t, astroI18n } from "astro-i18n";
 
+import pngGermany from "@assets/flag_germany.png?url";
+import pngRussia from "@assets/flag_russia.png?url";
 import pngSerbia from "@assets/flag_serbia.png?url";
 import pngUnitedKingdom from "@assets/flag_uk.png?url";
 
 const LANGUAGES: Record<Locale, { pngSrc: string; label: string }> = {
-  sr: {
-    pngSrc: pngSerbia,
-    label: t("languagePicker.serbian", undefined, { locale: "sr" }),
+  de: {
+    pngSrc: pngGermany,
+    label: t("languagePicker.german", undefined, { locale: "de" }),
   },
   en: {
     pngSrc: pngUnitedKingdom,
     label: t("languagePicker.english", undefined, { locale: "en" }),
+  },
+  ru: {
+    pngSrc: pngRussia,
+    label: t("languagePicker.russian", undefined, { locale: "ru" }),
+  },
+  sr: {
+    pngSrc: pngSerbia,
+    label: t("languagePicker.serbian", undefined, { locale: "sr" }),
   },
 } as const;
 ---

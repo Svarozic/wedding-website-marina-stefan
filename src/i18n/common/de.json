@@ -1,0 +1,103 @@
+{
+  "marina": "Marina",
+  "stefan": "Stefan",
+  "lastUpdate": "Letzte Aktualisierung",
+
+  "when": "Wann",
+  "date": "9. November 2025",
+  "moreInfo": "Mehr Infos",
+  "copyright1": "Copyright ©",
+  "copyright2": "- Alle Rechte vorbehalten",
+
+  "countdown": {
+    "days{{ days: 0 }}": "Tage",
+    "days{{ days: 1 }}": "Tag",
+    "days{{ days: 2 }}": "Tage",
+    "days": "Tage",
+    "hours{{ hours: 0 }}": "Stunden",
+    "hours{{ hours: 1 }}": "Stunde",
+    "hours{{ hours: 2 }}": "Stunden",
+    "hours": "Stunden",
+    "minutes{{ minutes: 0 }}": "Minuten",
+    "minutes{{ minutes: 1 }}": "Minute",
+    "minutes{{ minutes: 2 }}": "Minuten",
+    "minutes": "Minuten",
+    "seconds{{ seconds: 0 }}": "Sekunden",
+    "seconds{{ seconds: 1 }}": "Sekunde",
+    "seconds{{ seconds: 2 }}": "Sekunden",
+    "seconds": "Sekunden",
+
+    "before": "Liebe Freunde, nur noch",
+    "until": "bis wir unsere Wege für immer vereinen und unsere Liebe fest besiegeln.",
+    "after": "vergangen, was wir uns selbst Ja gesagt haben"
+  },
+
+  "hero": {
+    "headline1": "Lorem ipsum dolor",
+    "headline2": "Lorem ipsum dolor sit amet, consetetur",
+    "headline3": "Lorem ipsum dolor sit amet, consetetur"
+  },
+
+  "languagePicker": {
+    "tooltip": "Wählen Sie die Sprache",
+    "english": "Englisch",
+    "german": "Deutsch",
+    "russian": "Russisch",
+    "serbian": "Serbisch"
+  },
+
+  "nav": {
+    "home": "Startseite",
+    "participation": "Zusage",
+    "participation_short": "Zusage",
+    "itinerary": "Program",
+    "route": "Weg"
+  },
+
+  "participation": {
+    "confirm": "Teilnahme bestätigen",
+    "headline": {
+      "top": "Kommst du?",
+      "main": "Wir freuen uns auf deine Bestätigung"
+    },
+    "problem": {
+      "headline": "Sie sehen das Google-Formular nicht?",
+      "text": "Es tut uns leid, etwas ist schiefgelaufen. Bitte versuchen Sie diesen Link",
+      "open": "Öffnen"
+    }
+  },
+
+  "route": {
+    "headline": "Lorem ipsum dolor"
+  },
+
+  "itinerary": {
+    "headline": "Unser besonderer Tag",
+    "disclaimer": "Bitte beachten Sie: Dieser Reiseplan kann sich noch ändern.",
+
+    "gathering": "Versammlung der Hochzeitsgäste beim Haus des Bräutigams",
+    "departureToSvilajnac": "Abfahrt der Hochzeitsgäste nach Svilajnac",
+    "gatheringBridesHome": "Versammlung der Hochzeitsgäste beim Haus der Braut",
+    "arrivalSvilajnac": "Ankunft der Hochzeitsgäste aus Belgrad, Begrüßung der Braut",
+    "departureToBeograd": "Abfahrt aller Hochzeitsgäste nach Belgrad",
+    "arrivalBeograd": "Ankunft der Hochzeitsgäste und Versammlung in der St.-Dimitrije-Kirche",
+    "churchWedding": "Kirchliche Trauung",
+    "departureToSmederevo": "Abfahrt der Hochzeitsgäste nach Smederevo",
+    "arrivalSmederevo": "Ankunft der Hochzeitsgäste und Versammlung in der Villa Jugovo S, Smederevo",
+    "civilWedding": "Standesamtliche Trauung in der Villa Jugovo S",
+    "weddingCake": "Hochzeitstorte",
+    "officialEnd": "Offizielles Ende der Feier",
+
+    "address": {
+      "bulevar": "Bulevar Zorana Đinđića 123đ, 11070 Belgrad",
+      "svilajnac": "Mice Marković 37a, 35210 Svilajnac",
+      "church": "Omladinskih brigada 3a, 11070 Belgrad",
+      "smederevo": "Beogradski put bb, 11300 Smederevo"
+    }
+  },
+
+  "404": {
+    "headline": "Hoppla!",
+    "statement": "Na, na, na... es scheint, dass du es geschafft hast, uns zu überraschen und dabei eine Seite zu verlieren! Wie wäre es, wenn du einen entspannten Spaziergang zurück zu unserer schönen Startseite machst?"
+  }
+}

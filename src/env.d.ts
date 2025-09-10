@@ -2,7 +2,7 @@
 
 // ###> astro-i18n/type-generation ###
 type PrimaryLocale = "sr";
-type SecondaryLocale = "en";
+type SecondaryLocale = "en" | "de" | "ru";
 type Locale = PrimaryLocale | SecondaryLocale;
 type RouteParameters = {
   "/sr/daisy": undefined;
@@ -34,8 +34,10 @@ type TranslationVariables = {
   "hero.headline2": object | undefined;
   "hero.headline3": object | undefined;
   "languagePicker.tooltip": object | undefined;
-  "languagePicker.serbian": object | undefined;
   "languagePicker.english": object | undefined;
+  "languagePicker.german": object | undefined;
+  "languagePicker.russian": object | undefined;
+  "languagePicker.serbian": object | undefined;
   "nav.home": object | undefined;
   "nav.participation": object | undefined;
   "nav.participation_short": object | undefined;

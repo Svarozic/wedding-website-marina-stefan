@@ -40,8 +40,10 @@
 
   "languagePicker": {
     "tooltip": "Pick the language",
-    "serbian": "Serbian",
-    "english": "English"
+    "english": "English",
+    "german": "German",
+    "russian": "Russian",
+    "serbian": "Serbian"
   },
 
   "nav": {

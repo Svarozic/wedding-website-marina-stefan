@@ -46,8 +46,10 @@
 
   "languagePicker": {
     "tooltip": "Изаберите језик",
-    "serbian": "Српски",
-    "english": "Енглески"
+    "english": "Енглески",
+    "german": "Немачки",
+    "russian": "Руски",
+    "serbian": "Српски"
   },
 
   "nav": {

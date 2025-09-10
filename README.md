@@ -22,9 +22,6 @@
 
 ## TODOs 📓 for me
 
-- SVARGA: once Website is done, add locale `de`, `ru`
-  - [ ] add locales
-  - [ ] add GoogleForm links (default to `en`)
 - SVARGA: I have to solve numbers like 20,21 ... 30,31 ... itd (ne 11,12 NE)
 - SVARGA: AFTER WEDDING: fix CountdownHeadline, to not have dynamic day countdown, as it can't handle higher number as `99`
 
@@ -41,6 +38,7 @@
   - remove `15:30 Official photo session with the bride and groom` + `16:30 Grand entrance of the bride and groom and the first dance`
   - divide Program with parallax, after `Civil wedding at the Villa Jugovo S`
 - add Route page
+- add locale `de`, `ru` and also connect GoogleForms for these languages
 
 > 07.09.2025
 

@@ -1,5 +1,7 @@
 ---
 import { t } from "astro-i18n";
+
+import src_photo_couple_900_1200 from "@assets/photo_couple_900_1200.jpeg?url";
 ---
 
 <div class="mx-auto w-full max-w-240 px-2 pb-4 lg:px-4 lg:pb-8">
@@ -18,15 +20,12 @@ import { t } from "astro-i18n";
     </div>
     <div>
       <style>
-        #my-video-vila-jugovo-s {
+        #my-photo-couple {
           border-radius: var(--radius-field);
         }
       </style>
 
-      <video width="360" height="640" autoplay muted loop id="my-video-vila-jugovo-s">
-        <source src="/vila-jugovo-s.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      <img id="my-photo-couple" src={src_photo_couple_900_1200} alt="Couple Photo" />
     </div>
   </div>
 </div>

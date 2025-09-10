@@ -26,8 +26,6 @@
   - [ ] add locales
   - [ ] add GoogleForm links (default to `en`)
 - SVARGA: I have to solve numbers like 20,21 ... 30,31 ... itd (ne 11,12 NE)
-- SVARGA: put photo `WhatsApp Image 2025-09-09 at 22.27.27` to HERO, instead of video
--
 - SVARGA: AFTER WEDDING: fix CountdownHeadline, to not have dynamic day countdown, as it can't handle higher number as `99`
 
 ## 📓 Tasks done
@@ -38,6 +36,7 @@
   - in navigation top bar
   - full logo with flowers and frame on all pages at the bottom
   - as favicon (browser tab icon)
+- Home page with the photo instead of the video
 - Program page
   - remove `15:30 Official photo session with the bride and groom` + `16:30 Grand entrance of the bride and groom and the first dance`
   - divide Program with parallax, after `Civil wedding at the Villa Jugovo S`

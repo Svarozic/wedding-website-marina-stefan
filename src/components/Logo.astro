@@ -1,0 +1,11 @@
+---
+import src_logo_500_580 from "@assets/logo_500_580.png?url";
+
+interface Props {
+  class?: string;
+}
+
+const { class: className } = Astro.props;
+---
+
+<img src={src_logo_500_580} alt="Logo" class:list={["mx-auto", "p-4", "h-60", "lg:h-80", className]} />

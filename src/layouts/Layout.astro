@@ -5,6 +5,7 @@ import Container from "@components/Container.astro";
 import Footer from "@components/Footer.astro";
 import Navigation from "@components/Navigation.astro";
 import ScrollTopButton from "@components/ScrollTopButton.astro";
+import Logo from "@components/Logo.astro";
 
 import "@fontsource/didact-gothic";
 import "@fontsource/great-vibes";
@@ -36,6 +37,8 @@ import "../global.css";
     <main>
       <slot />
     </main>
+
+    <Logo />
 
     <Container>
       <Footer />

@@ -97,7 +97,6 @@ const { withHeadline = false } = Astro.props;
       // Time calculations for days, hours, minutes and seconds
       // floor down if positive (time to wedding), ceil up if negative (time from wedding)
       const days = Math.abs(daysDiff >= 0 ? Math.floor(daysDiff) : Math.ceil(daysDiff));
-      console.log(`SVARGA: days`, days); // SVARGA: remove console.log
       const hours = Math.abs(hoursDiff >= 0 ? Math.floor(hoursDiff) : Math.ceil(hoursDiff));
       const minutes = Math.abs(minutesDiff >= 0 ? Math.floor(minutesDiff) : Math.ceil(minutesDiff));
       const seconds = Math.abs(secondsDiff >= 0 ? Math.floor(secondsDiff) : Math.ceil(secondsDiff));

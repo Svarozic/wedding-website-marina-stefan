@@ -24,7 +24,9 @@ const GOOGLE_FORM_LINK = `${GOOGLE_FORM_URL}?usp=sf_link&hl=${locale}`;
 <Layout>
   <Container>
     <Headline top={t("participation.headline.top")}>{t("participation.headline.main")}</Headline>
+  </Container>
 
+  <Container>
     <iframe
       src={GOOGLE_FORM_IFRAME_LINK}
       width="100%"
@@ -49,6 +51,4 @@ const GOOGLE_FORM_LINK = `${GOOGLE_FORM_URL}?usp=sf_link&hl=${locale}`;
       </div>
     </div>
   </Container>
-
-  <FlowerDivider type="2" />
 </Layout>

@@ -27,7 +27,10 @@
     "minutes": "минута",
     "seconds{{ seconds: 0 }}": "секунди",
     "seconds{{ seconds: 1 }}": "секунд",
-    "seconds{{ seconds: 2 }}": "секунди",
+    "seconds{{ seconds: 2 }}": "секунде",
+    "seconds{{ seconds: 3 }}": "секунде",
+    "seconds{{ seconds: 4 }}": "секунде",
+    "seconds{{ seconds: 5 }}": "секунди",
     "seconds": "секунди",
 
     "before": "Драги наши, још",

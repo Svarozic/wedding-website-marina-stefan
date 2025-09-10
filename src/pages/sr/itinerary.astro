@@ -41,11 +41,54 @@ import ParticipationHeadline from "@components/ParticipationHeadline.astro";
       <TimelineItem time="14:00" titleKey="itinerary.arrivalSmederevo" locationKey="itinerary.address.smederevo" />
 
       <TimelineItem time="15:00" big side="right" titleKey="itinerary.civilWedding" />
+    </ul>
+  </Container>
 
-      <TimelineItem time="15:30" titleKey="itinerary.photoSession" />
+  <div class="relative flex h-96 w-full flex-col items-center justify-center overflow-hidden lg:h-140">
+    <style>
+      #parallax-waterfall {
+        background-image: url(/parallax_waterfall_600_600.jpeg);
+        background-size: cover;
+        background-position: center;
+      }
 
-      <TimelineItem time="16:30 – 17:00" side="right" titleKey="itinerary.firstDance" />
+      @media only screen and (min-width: 768px) {
+        #parallax-waterfall {
+          background-image: url(/parallax_waterfall_900_600.jpeg);
+        }
+      }
+    </style>
+    <div id="parallax-waterfall" class="absolute inset-0 h-screen max-h-[80vh] will-change-transform"></div>
+    <script>
+      (function () {
+        const el = document.getElementById("parallax-waterfall");
+        const speed = 0.4; // tweak 0.1–0.4
+        let ticking = false;
 
+        function onScroll() {
+          if (!ticking) {
+            requestAnimationFrame(() => {
+              if (el?.parentElement == null) {
+                return;
+              }
+              const rect = el.parentElement.getBoundingClientRect();
+              const offset = -rect.top * speed;
+              el.style.transform = `translate3d(0, ${offset}px, 0)`;
+              ticking = false;
+            });
+            ticking = true;
+          }
+        }
+
+        onScroll();
+
+        window.addEventListener("scroll", onScroll, { passive: true });
+      })();
+    </script>
+  </div>
+
+  <Container>
+    <ul class="timeline timeline-vertical timeline-snap-icon max-md:timeline-compact">
       <TimelineItem time="20:30" titleKey="itinerary.weddingCake" />
 
       <TimelineItem time="00:00" side="right" titleKey="itinerary.officialEnd" />

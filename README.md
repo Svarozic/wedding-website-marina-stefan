@@ -26,8 +26,6 @@
   - [ ] add locales
   - [ ] add GoogleForm links (default to `en`)
 - SVARGA: I have to solve numbers like 20,21 ... 30,31 ... itd (ne 11,12 NE)
-- SVARGA: divide Program with parallax, after `Civil wedding at the Villa Jugovo S` create parallax block with waterfall photo `WhatsApp Image 2025-08-10 at 19.34.54.jpeg`
-- SVARGA: remove from program page `15:30 Official photo session with the bride and groom` + `16:30 Grand entrance of the bride and groom and the first dance`
 - SVARGA: put photo `WhatsApp Image 2025-09-09 at 22.27.27` to HERO, instead of video
 - SVARGA: add page `route`
   - it will be like our "Discover slovakia", it meas headline + paragraf + image/google maps with point
@@ -42,6 +40,9 @@
   - in navigation top bar
   - full logo with flowers and frame on all pages at the bottom
   - as favicon (browser tab icon)
+- Program page
+  - remove `15:30 Official photo session with the bride and groom` + `16:30 Grand entrance of the bride and groom and the first dance`
+  - divide Program with parallax, after `Civil wedding at the Villa Jugovo S`
 
 > 07.09.2025
 

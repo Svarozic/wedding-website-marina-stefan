@@ -20,12 +20,13 @@
 
 ## TODOs 📓 for Stefan
 
-
 ## TODOs 📓 for me
 
+- SVARGA: I have to solve numbers like 20,21 ... 30,31 ... itd (ne 11,12 NE)
 - SVARGA: add Logo to navbar without frame,
   - put full logo with flowers and frame on all pages at the bottom (with frame with flowers) instead of divider
 - SVARGA: divide Program with parallax, after `Civil wedding at the Villa Jugovo S` create parallax block with waterfall photo `WhatsApp Image 2025-08-10 at 19.34.54.jpeg`
+- SVARGA: remove from program page `15:30 Official photo session with the bride and groom` + `16:30 Grand entrance of the bride and groom and the first dance`
 - SVARGA: get Logo from Ivana and use it in Navbar and in Footer
 - SVARGA: put drawing of couple stefan marina to HERO, instead of video
 - SVARGA: generate `favicon` from logo and use it

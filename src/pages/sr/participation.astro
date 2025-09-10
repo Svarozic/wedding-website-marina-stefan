@@ -4,19 +4,17 @@ import { astroI18n, t } from "astro-i18n";
 import Headline from "@components/Headline.astro";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
-import FlowerDivider from "@components/FlowerDivider.astro";
 
 const locale = astroI18n.locale ?? "en";
-
-// SVARGA: DE + RU locale GoogleForm lins:
-//  - DE https://docs.google.com/forms/d/e/1FAIpQLScTOWuc8GeWRhgClebcAGIZVq6IduIskBtK1sQhsNFECgGykw/viewform
-//  - RU https://docs.google.com/forms/d/e/1FAIpQLSc1HgHdRrA0jTbVAjKmwQmm_nrbep6TbIe8UjpOr4mcfTo8uw/viewform
-// CHECK ALSO iframe height attribute, if it can fit all forms without a scrollbar
 
 const GOOGLE_FORM_URL =
   locale === "sr"
     ? "https://docs.google.com/forms/d/e/1FAIpQLScDC6Hp0NXHb43LgQs_vgjsRflMC1znHXr76wxBhNaxD9eg6A/viewform"
-    : "https://docs.google.com/forms/d/e/1FAIpQLSefR81EPixSy8eeBQGfR9ik6Y5457f5tJCQFIkN1AZiTU_c8g/viewform";
+    : locale === "de"
+      ? "https://docs.google.com/forms/d/e/1FAIpQLScTOWuc8GeWRhgClebcAGIZVq6IduIskBtK1sQhsNFECgGykw/viewform"
+      : locale === "ru"
+        ? "https://docs.google.com/forms/d/e/1FAIpQLSc1HgHdRrA0jTbVAjKmwQmm_nrbep6TbIe8UjpOr4mcfTo8uw/viewform"
+        : "https://docs.google.com/forms/d/e/1FAIpQLSefR81EPixSy8eeBQGfR9ik6Y5457f5tJCQFIkN1AZiTU_c8g/viewform";
 const GOOGLE_FORM_IFRAME_LINK = `${GOOGLE_FORM_URL}?embedded=true&hl=${locale}`;
 const GOOGLE_FORM_LINK = `${GOOGLE_FORM_URL}?usp=sf_link&hl=${locale}`;
 ---

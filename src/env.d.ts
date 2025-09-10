@@ -9,6 +9,7 @@ type RouteParameters = {
   "/sr": undefined;
   "/sr/itinerary": undefined;
   "/sr/participation": undefined;
+  "/sr/route": undefined;
 };
 type Route = keyof RouteParameters;
 type TranslationVariables = {
@@ -39,12 +40,14 @@ type TranslationVariables = {
   "nav.participation": object | undefined;
   "nav.participation_short": object | undefined;
   "nav.itinerary": object | undefined;
+  "nav.route": object | undefined;
   "participation.confirm": object | undefined;
   "participation.headline.top": object | undefined;
   "participation.headline.main": object | undefined;
   "participation.problem.headline": object | undefined;
   "participation.problem.text": object | undefined;
   "participation.problem.open": object | undefined;
+  "route.headline": object | undefined;
   "itinerary.headline": object | undefined;
   "itinerary.disclaimer": object | undefined;
   "itinerary.gathering": object | undefined;
@@ -57,8 +60,6 @@ type TranslationVariables = {
   "itinerary.departureToSmederevo": object | undefined;
   "itinerary.arrivalSmederevo": object | undefined;
   "itinerary.civilWedding": object | undefined;
-  "itinerary.photoSession": object | undefined;
-  "itinerary.firstDance": object | undefined;
   "itinerary.weddingCake": object | undefined;
   "itinerary.officialEnd": object | undefined;
   "itinerary.address.bulevar": object | undefined;

@@ -48,7 +48,8 @@
     "home": "Home",
     "participation": "RSVP",
     "participation_short": "RSVP",
-    "itinerary": "Itinerary"
+    "itinerary": "Itinerary",
+    "route": "Route"
   },
 
   "participation": {
@@ -62,6 +63,10 @@
       "text": "We're sorry, something went wrong. Please try this link",
       "open": "Open"
     }
+  },
+
+  "route": {
+    "headline": "Lorem ipsum dolor"
   },
 
   "itinerary": {

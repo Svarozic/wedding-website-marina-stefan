@@ -54,7 +54,8 @@
     "home": "Почетна",
     "participation": "Потврдите учешће",
     "participation_short": "Учешће",
-    "itinerary": "Програм"
+    "itinerary": "Програм",
+    "route": "Рута"
   },
 
   "participation": {
@@ -68,6 +69,10 @@
       "text": "Жао нам је, нешто је пошло по злу. Молимо покушајте отворити овај линк.",
       "open": "Отвори"
     }
+  },
+
+  "route": {
+    "headline": "Lorem ipsum dolor"
   },
 
   "itinerary": {

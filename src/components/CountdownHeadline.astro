@@ -72,7 +72,6 @@ const { withHeadline = false } = Astro.props;
 
       this.setTimeValues();
 
-      console.log(`SVARGA: start interval`); // SVARGA: remove console.log
       this.intervalId = setInterval(this.setTimeValues, 1000);
     }
 
@@ -84,7 +83,6 @@ const { withHeadline = false } = Astro.props;
      * @see https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements#custom_element_lifecycle_callbacks
      */
     disconnectedCallback() {
-      console.log(`SVARGA: clear interval`); // SVARGA: remove console.log
       clearInterval(this.intervalId);
     }
 

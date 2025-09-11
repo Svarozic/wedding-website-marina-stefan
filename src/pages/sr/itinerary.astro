@@ -60,30 +60,39 @@ import ParticipationHeadline from "@components/ParticipationHeadline.astro";
     </style>
     <div id="parallax-waterfall" class="absolute inset-0 h-screen max-h-[80vh] will-change-transform"></div>
     <script>
-      (function () {
-        const el = document.getElementById("parallax-waterfall");
-        const speed = 0.4; // tweak 0.1–0.4
-        let ticking = false;
+      // Lifecycle handles - needed for astro transitions
+      // @see https://docs.astro.build/en/tutorials/add-view-transitions/#update-scripts
+      document.addEventListener("astro:page-load", () => {
+        (function () {
+          const el = document.getElementById("parallax-waterfall");
+          const speed = 0.4; // tweak 0.1–0.4
+          let ticking = false;
 
-        function onScroll() {
-          if (!ticking) {
-            requestAnimationFrame(() => {
-              if (el?.parentElement == null) {
-                return;
-              }
-              const rect = el.parentElement.getBoundingClientRect();
-              const offset = -rect.top * speed;
-              el.style.transform = `translate3d(0, ${offset}px, 0)`;
-              ticking = false;
-            });
-            ticking = true;
+          function onScroll() {
+            if (!ticking) {
+              requestAnimationFrame(() => {
+                if (el?.parentElement == null) {
+                  return;
+                }
+                const rect = el.parentElement.getBoundingClientRect();
+                const offset = -rect.top * speed;
+                el.style.transform = `translate3d(0, ${offset}px, 0)`;
+                ticking = false;
+              });
+              ticking = true;
+            }
           }
-        }
 
-        onScroll();
+          onScroll();
 
-        window.addEventListener("scroll", onScroll, { passive: true });
-      })();
+          window.addEventListener("scroll", onScroll, { passive: true });
+
+          // cleanup before transition
+          document.addEventListener("astro:before-preparation", () => {
+            window.removeEventListener("scroll", onScroll);
+          });
+        })();
+      });
     </script>
   </div>
 

@@ -16,43 +16,52 @@ import Center from "@components/Center.astro";
   <div class="relative flex h-96 w-full flex-col items-center justify-center overflow-hidden lg:h-140">
     <style>
       #parallax-wedding-location {
-        background-image: url(/parallax-wedding-location-800-800.jpeg);
+        background-image: url(/parallax_wedding_location_800_800.jpeg);
         background-size: cover;
         background-position: center;
       }
 
       @media only screen and (min-width: 768px) {
         #parallax-wedding-location {
-          background-image: url(/parallax-wedding-location.jpeg);
+          background-image: url(/parallax_wedding_location.jpeg);
         }
       }
     </style>
     <div id="parallax-wedding-location" class="absolute inset-0 h-screen max-h-[80vh] will-change-transform"></div>
     <script>
-      (function () {
-        const el = document.getElementById("parallax-wedding-location");
-        const speed = 0.4; // tweak 0.1–0.4
-        let ticking = false;
+      // Lifecycle handles - needed for astro transitions
+      // @see https://docs.astro.build/en/tutorials/add-view-transitions/#update-scripts
+      document.addEventListener("astro:page-load", () => {
+        (function () {
+          const el = document.getElementById("parallax-wedding-location");
+          const speed = 0.4; // tweak 0.1–0.4
+          let ticking = false;
 
-        function onScroll() {
-          if (!ticking) {
-            requestAnimationFrame(() => {
-              if (el?.parentElement == null) {
-                return;
-              }
-              const rect = el.parentElement.getBoundingClientRect();
-              const offset = -rect.top * speed;
-              el.style.transform = `translate3d(0, ${offset}px, 0)`;
-              ticking = false;
-            });
-            ticking = true;
+          function onScroll() {
+            if (!ticking) {
+              requestAnimationFrame(() => {
+                if (el?.parentElement == null) {
+                  return;
+                }
+                const rect = el.parentElement.getBoundingClientRect();
+                const offset = -rect.top * speed;
+                el.style.transform = `translate3d(0, ${offset}px, 0)`;
+                ticking = false;
+              });
+              ticking = true;
+            }
           }
-        }
 
-        onScroll();
+          onScroll();
 
-        window.addEventListener("scroll", onScroll, { passive: true });
-      })();
+          window.addEventListener("scroll", onScroll, { passive: true });
+
+          // cleanup before transition
+          document.addEventListener("astro:before-preparation", () => {
+            window.removeEventListener("scroll", onScroll);
+          });
+        })();
+      });
     </script>
 
     <div class="card mx-2 rounded-[var(--radius-field)] bg-white/50 p-4 shadow-xl backdrop-blur lg:p-8">
@@ -73,43 +82,52 @@ import Center from "@components/Center.astro";
   <div class="relative flex h-96 w-full flex-col items-center justify-center overflow-hidden lg:h-140">
     <style>
       #parallax-couple {
-        background-image: url(/parallax-couple-800-800.jpeg);
+        background-image: url(/parallax_couple_800_800.jpeg);
         background-size: cover;
         background-position: center;
       }
 
       @media only screen and (min-width: 768px) {
         #parallax-couple {
-          background-image: url(/parallax-couple.jpeg);
+          background-image: url(/parallax_couple.jpeg);
         }
       }
     </style>
     <div id="parallax-couple" class="absolute inset-0 h-screen max-h-[80vh] will-change-transform"></div>
     <script>
-      (function () {
-        const el = document.getElementById("parallax-couple");
-        const speed = 0.4; // tweak 0.1–0.4
-        let ticking = false;
+      // Lifecycle handles - needed for astro transitions
+      // @see https://docs.astro.build/en/tutorials/add-view-transitions/#update-scripts
+      document.addEventListener("astro:page-load", () => {
+        (function () {
+          const el = document.getElementById("parallax-couple");
+          const speed = 0.4; // tweak 0.1–0.4
+          let ticking = false;
 
-        function onScroll() {
-          if (!ticking) {
-            requestAnimationFrame(() => {
-              if (el?.parentElement == null) {
-                return;
-              }
-              const rect = el.parentElement.getBoundingClientRect();
-              const offset = -rect.top * speed;
-              el.style.transform = `translate3d(0, ${offset}px, 0)`;
-              ticking = false;
-            });
-            ticking = true;
+          function onScroll() {
+            if (!ticking) {
+              requestAnimationFrame(() => {
+                if (el?.parentElement == null) {
+                  return;
+                }
+                const rect = el.parentElement.getBoundingClientRect();
+                const offset = -rect.top * speed;
+                el.style.transform = `translate3d(0, ${offset}px, 0)`;
+                ticking = false;
+              });
+              ticking = true;
+            }
           }
-        }
 
-        onScroll();
+          onScroll();
 
-        window.addEventListener("scroll", onScroll, { passive: true });
-      })();
+          window.addEventListener("scroll", onScroll, { passive: true });
+
+          // cleanup before transition
+          document.addEventListener("astro:before-preparation", () => {
+            window.removeEventListener("scroll", onScroll);
+          });
+        })();
+      });
     </script>
   </div>
 

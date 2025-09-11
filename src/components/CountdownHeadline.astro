@@ -54,7 +54,7 @@ const { withHeadline = false } = Astro.props;
 </my-countdown-headline>
 
 <script>
-  import { t } from "astro-i18n";
+  import { t, astroI18n } from "astro-i18n";
 
   const msgUntil = "... " + t("countdown.until");
   const msgAfter = "... " + t("countdown.after");
@@ -72,6 +72,7 @@ const { withHeadline = false } = Astro.props;
 
       this.setTimeValues();
 
+      console.log(`SVARGA: start interval`); // SVARGA: remove console.log
       this.intervalId = setInterval(this.setTimeValues, 1000);
     }
 
@@ -83,6 +84,7 @@ const { withHeadline = false } = Astro.props;
      * @see https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements#custom_element_lifecycle_callbacks
      */
     disconnectedCallback() {
+      console.log(`SVARGA: clear interval`); // SVARGA: remove console.log
       clearInterval(this.intervalId);
     }
 
@@ -102,47 +104,44 @@ const { withHeadline = false } = Astro.props;
       const seconds = Math.abs(secondsDiff >= 0 ? Math.floor(secondsDiff) : Math.ceil(secondsDiff));
 
       // Display the result in the elements
+      this.setValue("myCountdownDayValue", "myCountdownDayText", days, "countdown.days");
+      this.setValue("myCountdownHourValue", "myCountdownHourText", hours, "countdown.hours");
+      this.setValue("myCountdownMinuteValue", "myCountdownMinuteText", minutes, "countdown.minutes");
+      this.setValue("myCountdownSecondValue", "myCountdownSecondText", seconds, "countdown.seconds");
 
-      // BUT days, daisy countdown can handle only 0..99,
-      this.querySelector<HTMLSpanElement>('[data-id="myCountdownDayValue"]')?.style.setProperty(
-        "--value",
-        days.toString(),
-      );
-      const daysTextEl = this.querySelector<HTMLSpanElement>('[data-id="myCountdownDayText"]');
-      if (daysTextEl) {
-        daysTextEl.innerText = t("countdown.days", { days: days });
-      }
-
-      this.querySelector<HTMLSpanElement>('[data-id="myCountdownHourValue"]')?.style.setProperty(
-        "--value",
-        hours.toString(),
-      );
-      const hoursTextEl = this.querySelector<HTMLSpanElement>('[data-id="myCountdownHourText"]');
-      if (hoursTextEl) {
-        hoursTextEl.innerText = t("countdown.hours", { hours: hours });
-      }
-
-      this.querySelector<HTMLSpanElement>('[data-id="myCountdownMinuteValue"]')?.style.setProperty(
-        "--value",
-        minutes.toString(),
-      );
-      const minutesTextEl = this.querySelector<HTMLSpanElement>('[data-id="myCountdownMinuteText"]');
-      if (minutesTextEl) {
-        minutesTextEl.innerText = t("countdown.minutes", { minutes: minutes });
-      }
-
-      this.querySelector<HTMLSpanElement>('[data-id="myCountdownSecondValue"]')?.style.setProperty(
-        "--value",
-        seconds.toString(),
-      );
-      const secondsTextEl = this.querySelector<HTMLSpanElement>('[data-id="myCountdownSecondText"]');
-      if (secondsTextEl) {
-        secondsTextEl.innerText = t("countdown.seconds", { seconds: seconds });
-      }
-
+      // Display the headline text if present
       const myCountdownHeadline = this.querySelector<HTMLHeadingElement>('[data-id="myCountdownHeadline"]');
       if (myCountdownHeadline != null) {
         myCountdownHeadline.innerText = distance > 0 ? msgUntil : msgAfter;
+      }
+    };
+
+    private setValue = (valueDataId: string, textDataId: string, value: number, translation: Translation) => {
+      this.querySelector<HTMLSpanElement>(`[data-id="${valueDataId}"]`)?.style.setProperty("--value", String(value));
+      const daysTextEl = this.querySelector<HTMLSpanElement>(`[data-id="${textDataId}"]`);
+      if (daysTextEl) {
+        if (astroI18n.locale === "ru" || astroI18n.locale === "sr") {
+          // Russian and Serbian have complex plural forms, so we let the i18n library handle it
+          let count = 0;
+          const restOf100 = value % 100;
+          if (restOf100 === 11 || restOf100 === 12 || restOf100 === 13 || restOf100 === 14) {
+            count = 0; // many
+          } else {
+            const restOf10 = value % 10;
+            if (restOf10 === 1) {
+              count = 1; // one
+            } else if (restOf10 === 2 || restOf10 === 3 || restOf10 === 4) {
+              count = 2; // few
+            } else {
+              count = 0; // many
+            }
+          }
+
+          daysTextEl.innerText = t(translation, { count });
+        } else {
+          // Other languages (like English and German) have simple plural forms, so we can use our custom logic
+          daysTextEl.innerText = t(translation, { count: value });
+        }
       }
     };
   }

@@ -23,10 +23,10 @@ type TranslationVariables = {
   moreInfo: object | undefined;
   copyright1: object | undefined;
   copyright2: object | undefined;
-  "countdown.days": { $priority?: number; days?: number } | undefined;
-  "countdown.hours": { $priority?: number; hours?: number } | undefined;
-  "countdown.minutes": { $priority?: number; minutes?: number } | undefined;
-  "countdown.seconds": { $priority?: number; seconds?: number } | undefined;
+  "countdown.days": { $priority?: number; count?: number } | undefined;
+  "countdown.hours": { $priority?: number; count?: number } | undefined;
+  "countdown.minutes": { $priority?: number; count?: number } | undefined;
+  "countdown.seconds": { $priority?: number; count?: number } | undefined;
   "countdown.before": object | undefined;
   "countdown.until": object | undefined;
   "countdown.after": object | undefined;

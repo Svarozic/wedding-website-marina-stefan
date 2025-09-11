@@ -22,13 +22,13 @@
 
 ## TODOs 📓 for me
 
-- SVARGA: I have to solve numbers like 20,21 ... 30,31 ... itd (ne 11,12 NE)
 - SVARGA: AFTER WEDDING: fix CountdownHeadline, to not have dynamic day countdown, as it can't handle higher number as `99`
 
 ## 📓 Tasks done
 
 > 10.09.2025
 
+- add Ivory background (Color similar to #F8F4E3)
 - use Logo
   - in navigation top bar
   - full logo with flowers and frame on all pages at the bottom
@@ -39,6 +39,7 @@
   - divide Program with parallax, after `Civil wedding at the Villa Jugovo S`
 - add Route page
 - add locale `de`, `ru` and also connect GoogleForms for these languages
+- fix Countdown 0, 1, 2-4, 5+ (except 21-24, 31-34 ...) for slavic languages
 
 > 07.09.2025
 

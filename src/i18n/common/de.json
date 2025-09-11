@@ -10,21 +10,24 @@
   "copyright2": "- Alle Rechte vorbehalten",
 
   "countdown": {
-    "days{{ days: 0 }}": "Tage",
-    "days{{ days: 1 }}": "Tag",
-    "days{{ days: 2 }}": "Tage",
+    "days{{ count: 0 }}": "Tage",
+    "days{{ count: 1 }}": "Tag",
+    "days{{ count: 2 }}": "Tage",
     "days": "Tage",
-    "hours{{ hours: 0 }}": "Stunden",
-    "hours{{ hours: 1 }}": "Stunde",
-    "hours{{ hours: 2 }}": "Stunden",
+
+    "hours{{ count: 0 }}": "Stunden",
+    "hours{{ count: 1 }}": "Stunde",
+    "hours{{ count: 2 }}": "Stunden",
     "hours": "Stunden",
-    "minutes{{ minutes: 0 }}": "Minuten",
-    "minutes{{ minutes: 1 }}": "Minute",
-    "minutes{{ minutes: 2 }}": "Minuten",
+
+    "minutes{{ count: 0 }}": "Minuten",
+    "minutes{{ count: 1 }}": "Minute",
+    "minutes{{ count: 2 }}": "Minuten",
     "minutes": "Minuten",
-    "seconds{{ seconds: 0 }}": "Sekunden",
-    "seconds{{ seconds: 1 }}": "Sekunde",
-    "seconds{{ seconds: 2 }}": "Sekunden",
+
+    "seconds{{ count: 0 }}": "Sekunden",
+    "seconds{{ count: 1 }}": "Sekunde",
+    "seconds{{ count: 2 }}": "Sekunden",
     "seconds": "Sekunden",
 
     "before": "Liebe Freunde, nur noch",

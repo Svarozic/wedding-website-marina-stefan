@@ -26,7 +26,7 @@
 
 ## 📓 Tasks done
 
-> 10.09.2025
+> 11.09.2025
 
 - add Ivory background (Color similar to #F8F4E3)
 - use Logo

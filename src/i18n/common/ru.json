@@ -23,6 +23,7 @@
     "hours{{ count: 2 }}": "часа",
     "hours{{ count: 3 }}": "часа",
     "hours{{ count: 4 }}": "часа",
+    "hours{{ count: 5 }}": "часов",
     "hours": "часов",
 
     "minutes{{ count: 0 }}": "минут",

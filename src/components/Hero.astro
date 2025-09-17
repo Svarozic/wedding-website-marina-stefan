@@ -4,28 +4,18 @@ import { t } from "astro-i18n";
 import src_photo_couple_900_1200 from "@assets/photo_couple_900_1200.jpeg?url";
 ---
 
-<div class="mx-auto w-full max-w-240 px-2 pb-4 lg:px-4 lg:pb-8">
-  <div class="grid min-h-svh place-items-center items-center gap-4 lg:grid-cols-3">
-    <div class="lg:col-span-2">
-      <div class="text-center lg:text-start">
-        <h1 class="py-6 font-serif text-7xl lg:py-12 lg:text-8xl">{t("hero.headline1")}</h1>
-
-        <p class="max-w-xl pb-4 lg:text-lg">
-          {t("hero.headline2")}
-        </p>
-        <p class="max-w-xl pb-4 lg:text-lg">
-          {t("hero.headline3")}
-        </p>
-      </div>
-    </div>
-    <div>
-      <style>
-        #my-photo-couple {
-          border-radius: var(--radius-field);
-        }
-      </style>
-
-      <img id="my-photo-couple" src={src_photo_couple_900_1200} alt="Couple Photo" />
+<div class="hero min-h-svh">
+  <div class="hero-content flex-col-reverse gap-4 lg:flex-row-reverse">
+    <img
+      src={src_photo_couple_900_1200}
+      alt="Couple Photo"
+      class="h-auto w-auto max-w-full rounded-lg shadow-xl md:max-w-sm xl:max-w-md 2xl:max-w-lg"
+    />
+    <div class="min-w-0 text-center lg:text-left">
+      <p class="pb-3 lg:pb-6 lg:text-lg">
+        {t("hero.headline1")}
+      </p>
+      <h1 class="py-6 font-serif text-7xl lg:py-12 xl:text-8xl 2xl:text-9xl">{t("hero.headline2")}</h1>
     </div>
   </div>
 </div>

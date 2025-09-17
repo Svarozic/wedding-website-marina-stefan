@@ -32,7 +32,6 @@ type TranslationVariables = {
   "countdown.after": object | undefined;
   "hero.headline1": object | undefined;
   "hero.headline2": object | undefined;
-  "hero.headline3": object | undefined;
   "languagePicker.tooltip": object | undefined;
   "languagePicker.english": object | undefined;
   "languagePicker.german": object | undefined;

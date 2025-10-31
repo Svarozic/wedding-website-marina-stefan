@@ -4,10 +4,71 @@ import { t } from "astro-i18n";
 import Layout from "@layouts/Layout.astro";
 import Headline from "@components/Headline.astro";
 import Container from "@components/Container.astro";
+import Paragraph from "@components/Paragraph.astro";
+import RouteImage from "@components/RouteImage.astro";
+
+import src1 from "@assets/route-sv/1.jpg?url";
+import src2 from "@assets/route-sv/2.jpg?url";
+import src3 from "@assets/route-sv/3.jpg?url";
+import src4 from "@assets/route-sv/4.jpg?url";
+import src5 from "@assets/route-sv/5.jpg?url";
+import src6 from "@assets/route-sv/6.jpg?url";
+import src7 from "@assets/route-sv/7.jpg?url";
+import src8 from "@assets/route-sv/8.jpg?url";
+import src9 from "@assets/route-sv/9.jpg?url";
+import src10 from "@assets/route-sv/10.jpg?url";
+import src11 from "@assets/route-sv/11.jpg?url";
+import src12 from "@assets/route-sv/12.jpg?url";
+import src13 from "@assets/route-sv/13.jpg?url";
+import src14 from "@assets/route-sv/14.jpg?url";
+import src15 from "@assets/route-sv/15.jpg?url";
+import src16 from "@assets/route-sv/16.jpg?url";
+import src17 from "@assets/route-sv/17.jpg?url";
+import src18 from "@assets/route-sv/18.jpg?url";
+import src19 from "@assets/route-sv/19.jpg?url";
+import src20 from "@assets/route-sv/20.jpg?url";
 ---
 
 <Layout>
   <Container>
     <Headline>{t("routeSV.headline")}</Headline>
+  </Container>
+
+  <Container>
+    <Paragraph>{t("routeSV.0a")}</Paragraph>
+    <Paragraph>{t("routeSV.0b")}</Paragraph>
+    <RouteImage src={src1} />
+    <RouteImage src={src2} />
+    <RouteImage src={src3} />
+    <Paragraph>{t("routeSV.3")}</Paragraph>
+    <RouteImage src={src4} />
+    <RouteImage src={src5} />
+    <Paragraph>{t("routeSV.5")}</Paragraph>
+    <RouteImage src={src6} />
+    <Paragraph>{t("routeSV.6a")}</Paragraph>
+    <Paragraph>{t("routeSV.6b")}</Paragraph>
+    <RouteImage src={src7} />
+    <RouteImage src={src8} />
+    <Paragraph>{t("routeSV.8a")}</Paragraph>
+    <Paragraph>{t("routeSV.8b")}</Paragraph>
+    <RouteImage src={src9} />
+    <RouteImage src={src10} />
+    <RouteImage src={src11} />
+    <RouteImage src={src12} />
+    <RouteImage src={src13} />
+    <RouteImage src={src14} />
+    <Paragraph>{t("routeSV.14")}</Paragraph>
+    <RouteImage src={src15} />
+    <Paragraph>{t("routeSV.15")}</Paragraph>
+    <RouteImage src={src16} />
+    <Paragraph>{t("routeSV.16")}</Paragraph>
+    <RouteImage src={src17} />
+    <Paragraph>{t("routeSV.17")}</Paragraph>
+    <RouteImage src={src18} />
+    <RouteImage src={src19} />
+    <Paragraph>{t("routeSV.19a")}</Paragraph>
+    <Paragraph>{t("routeSV.19b")}</Paragraph>
+    <RouteImage src={src20} />
+    <Paragraph>{t("routeSV.20")}</Paragraph>
   </Container>
 </Layout>

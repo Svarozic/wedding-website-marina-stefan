@@ -1,0 +1,9 @@
+---
+interface Props {
+  src?: string;
+}
+
+const { src } = Astro.props;
+---
+
+<img src={src} class="mx-auto mt-2 mb-4 w-full max-w-240 rounded-lg shadow-xl lg:mt-4 lg:mb-8" />

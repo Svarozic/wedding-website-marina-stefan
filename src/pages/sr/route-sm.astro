@@ -2,12 +2,12 @@
 import { t } from "astro-i18n";
 
 import Layout from "@layouts/Layout.astro";
-import Container from "@components/Container.astro";
 import Headline from "@components/Headline.astro";
+import Container from "@components/Container.astro";
 ---
 
 <Layout>
   <Container>
-    <Headline top={t("nav.route")}>{t("route.headline")}</Headline>
+    <Headline>{t("routeSM.headline")}</Headline>
   </Container>
 </Layout>

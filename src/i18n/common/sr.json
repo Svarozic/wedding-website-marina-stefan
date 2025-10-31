@@ -65,7 +65,8 @@
     "participation": "Потврдите учешће",
     "participation_short": "Учешће",
     "itinerary": "Програм",
-    "route": "Рута"
+    "routeSM": "Рута СМ",
+    "routeSV": "Рута СВ"
   },
 
   "participation": {
@@ -81,8 +82,12 @@
     }
   },
 
-  "route": {
-    "headline": "Lorem ipsum dolor"
+  "routeSM": {
+    "headline": "САТ патрола вила Југово С"
+  },
+
+  "routeSV": {
+    "headline": "САТ патрола Свилајнац"
   },
 
   "itinerary": {

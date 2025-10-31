@@ -9,7 +9,8 @@ type RouteParameters = {
   "/sr": undefined;
   "/sr/itinerary": undefined;
   "/sr/participation": undefined;
-  "/sr/route": undefined;
+  "/sr/route-sm": undefined;
+  "/sr/route-sv": undefined;
 };
 type Route = keyof RouteParameters;
 type TranslationVariables = {
@@ -41,14 +42,16 @@ type TranslationVariables = {
   "nav.participation": object | undefined;
   "nav.participation_short": object | undefined;
   "nav.itinerary": object | undefined;
-  "nav.route": object | undefined;
+  "nav.routeSM": object | undefined;
+  "nav.routeSV": object | undefined;
   "participation.confirm": object | undefined;
   "participation.headline.top": object | undefined;
   "participation.headline.main": object | undefined;
   "participation.problem.headline": object | undefined;
   "participation.problem.text": object | undefined;
   "participation.problem.open": object | undefined;
-  "route.headline": object | undefined;
+  "routeSM.headline": object | undefined;
+  "routeSV.headline": object | undefined;
   "itinerary.headline": object | undefined;
   "itinerary.disclaimer": object | undefined;
   "itinerary.gathering": object | undefined;

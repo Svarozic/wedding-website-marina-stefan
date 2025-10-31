@@ -53,7 +53,8 @@
     "participation": "RSVP",
     "participation_short": "RSVP",
     "itinerary": "Itinerary",
-    "route": "Route"
+    "routeSM": "Route SM",
+    "routeSV": "Route SV"
   },
 
   "participation": {
@@ -69,8 +70,12 @@
     }
   },
 
-  "route": {
-    "headline": "Lorem ipsum dolor"
+  "routeSM": {
+    "headline": "Top Gear villa Jugovo S"
+  },
+
+  "routeSV": {
+    "headline": "Top Gear Belgrade - Svilajnac"
   },
 
   "itinerary": {

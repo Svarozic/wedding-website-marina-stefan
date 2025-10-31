@@ -53,7 +53,8 @@
     "participation": "Zusage",
     "participation_short": "Zusage",
     "itinerary": "Programm",
-    "route": "Weg"
+    "routeSM": "Rute SM",
+    "routeSV": "Rute SV"
   },
 
   "participation": {
@@ -69,8 +70,12 @@
     }
   },
 
-  "route": {
-    "headline": "Lorem ipsum dolor"
+  "routeSM": {
+    "headline": "Verkehrsservice Villa Jugovo S"
+  },
+
+  "routeSV": {
+    "headline": "Verkehrsservice Belgrad - Svilajnac"
   },
 
   "itinerary": {

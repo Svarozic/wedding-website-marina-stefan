@@ -65,7 +65,8 @@
     "participation": "RSVP",
     "participation_short": "RSVP",
     "itinerary": "Программа",
-    "route": "Путь"
+    "routeSM": "Маршрут СМ",
+    "routeSV": "Маршрут СВ"
   },
 
   "participation": {
@@ -81,8 +82,12 @@
     }
   },
 
-  "route": {
-    "headline": "Lorem ipsum dolor"
+  "routeSM": {
+    "headline": "Дорожные патрули вилла Югово С"
+  },
+
+  "routeSV": {
+    "headline": "Дорожные патрули Белград - Саилайнац"
   },
 
   "itinerary": {

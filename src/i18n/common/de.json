@@ -71,11 +71,37 @@
   },
 
   "routeSM": {
-    "headline": "Verkehrsservice Villa Jugovo S"
+    "headline": "Verkehrsservice Villa Jugovo S",
+    "0": "Nach dem Treffen beim Bräutigam biegen Sie rechts ab und fahren Sie geradeaus weiter entlang des Zoran-Đinđić-Boulevards. An der dritten Ampelkreuzung in der Nähe der Belgrader (Basketball-)Arena biegen Sie rechts ab.",
+    "2": "Fahren Sie über eine Ampelkreuzung geradeaus, dann in den Kreisverkehr über der Autobahn, nehmen Sie die dritte Ausfahrt und fahren Sie auf die Autobahn in Richtung Stadtzentrum / Niš / Skoplje.",
+    "3a": "Fahren Sie geradeaus weiter und verlassen Sie die Stadt.",
+    "3b": "Nach etwa 20 Minuten Fahrt bzw. 26 km vom Haus des Bräutigams fahren Sie durch die Mautstation Belgrad (im Stadtbezirk Vrčin).",
+    "5a": "Fahren Sie in den geschlossenen Abschnitt der Autobahn A1 / 00E75 ein.",
+    "5b": "Nachdem Sie an dem Motel „Jerina“ vorbeifahren, nehmen Sie die Ausfahrt „Vodanj“ und folgen Sie dem Schild „Smederevo Zentrum“. Die Ausfahrt befindet sich ca. 52 km vom Haus des Bräutigams bzw. 26 km von der Mautstation „Belgrad“.",
+    "10": "Biegen Sie danach rechts ab, folgen Sie dem Schilder „Smederevo“ und „Vodanj“ und fahren Sie über die Brücke, die über die Autobahn führt.",
+    "12": "Fahren Sie geradeaus weiter durch die Dörfer Vodanj und Petrijevo, bis Sie den ersten Kreisverkehr erreichen.",
+    "13": "Am Kreisverkehr im Dorf Petrijevo nehmen Sie die dritte Ausfahrt und folgen dem Schild „Grocka“. Fahren Sie anschließend etwa 5,5 km geradeaus, bis Sie zur Donau gelangen.",
+    "15": "An der Kreuzung vor der Donau biegen Sie rechts ab.",
+    "17": "Die Villa „Jugovo S“ befindet sich auf der linken Straßenseite, etwa 1,4 km bzw. 2 Minuten Fahrtzeit entfernt nach der letzten Kreuzung."
   },
 
   "routeSV": {
-    "headline": "Verkehrsservice Belgrad - Svilajnac"
+    "headline": "Verkehrsservice Belgrad - Svilajnac",
+    "0a": "Versammlung der Hochzeitsgäste beim Bräutigam zu Hause. Adresse: Bulevar Zorana Đinđića 123đ, 11070 Belgrad",
+    "0b": "Die Straßen, in denen Sie Ihr Fahrzeug parken können, sind rot markiert. Der orange Punkt kennzeichnet den Ort, an dem sich der Hochzeitskorso bilden wird.",
+    "3": "Nach dem Treffen beim Bräutigam biegen Sie rechts ab und fahren Sie geradeaus weiter entlang des Zoran-Đinđić-Boulevards. An der dritten Ampelkreuzung in der Nähe der Belgrader (Basketball-)Arena biegen Sie rechts ab.",
+    "5": "Fahren Sie über eine Ampelkreuzung geradeaus, dann in den Kreisverkehr über der Autobahn, nehmen Sie die dritte Ausfahrt und fahren Sie auf die Autobahn in Richtung Stadtzentrum / Niš / Skoplje.",
+    "6a": "Fahren Sie geradeaus weiter und verlassen Sie die Stadt.",
+    "6b": "Nach etwa 20 Minuten Fahrt bzw. 26 km vom Haus des Bräutigams fahren Sie durch die Mautstation Belgrad (im Stadtbezirk Vrčin).",
+    "8a": "Fahren Sie in den geschlossenen Abschnitt der Autobahn A1 / E75 ein.",
+    "8b": "Etwa 94 km vom Haus des Bräutigams bzw. 68 km von der Mautstation Belgrad verlassen Sie die Autobahn an der Mautstation „Velika Plana“. Diese Mautstation befindet sich nach dem Rastplatz mit der Gazprom-Tankstelle und dem McDonald’s-Restaurant.",
+    "14": "Nachdem Sie die Mautstation durchgefahren haben, biegen Sie an der ersten Kreuzung rechts ab und fahren Sie geradeaus über die Brücke, die über von Ihnen gerade verlassene Autobahn führt.",
+    "15": "Unmittelbar nach der Brücke biegen Sie rechts ab und folgen Sie den Schildern in Richtung Svilajnac und des Ethnodorfs „Moravski konaci“.",
+    "16": "Fahren Sie geradeaus bis zur T-Kreuzung und biegen Sie dort links ab, dem Schild zum Ethnodorf „Moravski konaci“ folgend.",
+    "17": "Folgen Sie der Hauptstraße, fahren Sie neben den Zolllager „Velika Plana“, überqueren Sie die Brücke über den Fluss Velika Morava, fahren Sie durch das Dorf Donja Livadica und setzen Sie geradeaus fort, bis Sie das Dorf Žabari erreichen. Im Zentrum dieses Dorfes biegen Sie rechts ab, dem Schild nach Svilajnac folgend.",
+    "19a": "Folgen Sie der Hauptstraße und fahren Sie durch die Dörfer Gornja Livadica, Porodin und Kušiljevo. Danach erreichen Sie Svilajnac und fahren Sie neben die Autowaschanlage „Raša i Aca“ sowie das Keramikgeschäft „Neša Komerc“ auf Ihrer rechte Seite, bzw. neben das Restaurant „Exclusive“ und den Laden „Svetofor“ auf Ihrer linkie Seite.",
+    "19b": "Nach dem Einfahrt in Svilajnac folgen Sie der Straße bis ins Stadtzentrum, nehmen die scharfe Linkskurve (auf der linken Seite sehen Sie ein Denkmal gewidmet den Kämpfer und Befreier des Ersten Weltkriegs aus dieser serbischer Region) und fahren an der ersten Kreuzung geradeaus weiter.",
+    "20": "Etwa 20 Sekunden nach dieser Kreuzung erreichen Sie das Haus der Braut."
   },
 
   "itinerary": {

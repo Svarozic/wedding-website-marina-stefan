@@ -29,7 +29,6 @@ type TranslationVariables = {
   "countdown.minutes": { $priority?: number; count?: number } | undefined;
   "countdown.seconds": { $priority?: number; count?: number } | undefined;
   "countdown.before": object | undefined;
-  "countdown.until": object | undefined;
   "countdown.after": object | undefined;
   "hero.headline1": object | undefined;
   "hero.headline2": object | undefined;

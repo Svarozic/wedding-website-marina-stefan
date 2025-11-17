@@ -22,8 +22,6 @@
 
 ## TODOs 📓 for me
 
-- SVARGA: AFTER WEDDING: fix CountdownHeadline, to not have dynamic day countdown, as it can't handle higher number as `99`
-
 ## 📓 Tasks done
 
 > 11.09.2025

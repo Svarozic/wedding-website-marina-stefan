@@ -23,11 +23,6 @@ body {
 @plugin "daisyui" {
   themes: bumblebee --default;
   logs: false;
-
-  /*
-     SVARGA: use include with parts to minimize size of page https://daisyui.com/docs/config/#include
-     include: button, input, select;
-     */
 }
 
 /*

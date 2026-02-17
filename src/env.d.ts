@@ -96,6 +96,14 @@ type TranslationVariables = {
   "itinerary.address.svilajnac": object | undefined;
   "itinerary.address.church": object | undefined;
   "itinerary.address.smederevo": object | undefined;
+  "photos.look": object | undefined;
+  "photos.albumWeddingJugovo": object | undefined;
+  "photos.albumPartyJugovo": object | undefined;
+  "photos.albumGuests": object | undefined;
+  "photos.albumGarden": object | undefined;
+  "photos.albumChurch": object | undefined;
+  "photos.albumSvilajnac": object | undefined;
+  "photos.albumBeograde": object | undefined;
 };
 type Translation = keyof TranslationVariables;
 type Environment = "none" | "node" | "browser";

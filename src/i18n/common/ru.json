@@ -141,7 +141,16 @@
     }
   },
 
-  "photos": {},
+  "photos": {
+    "look": "Посмотрите",
+    "albumWeddingJugovo": "Свадьба Югово",
+    "albumPartyJugovo": "Вечеринка Югово",
+    "albumGuests": "Фотографии с гостями",
+    "albumGarden": "Сад Югово",
+    "albumChurch": "Церковь",
+    "albumSvilajnac": "Свилайнац",
+    "albumBeograde": "Белград"
+  },
 
   "404": {
     "headline": "Ой!",

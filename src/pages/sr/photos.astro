@@ -3,10 +3,293 @@ import { t } from "astro-i18n";
 import Headline from "@components/Headline.astro";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
+import Paragraph from "@components/Paragraph.astro";
+
+import assetAlbumBeograde from "@assets/album_belgrade_500_500.jpeg?url";
+import assetAlbumChurch from "@assets/album_church_500_500.jpeg?url";
+import assetAlbumGarden from "@assets/album_garden_500_500.jpeg?url";
+import assetAlbumGuests from "@assets/album_guests_500_500.jpeg?url";
+import assetAlbumJugovo from "@assets/album_jugovo_500_500.jpeg?url";
+import assetAlbumJugovoParty from "@assets/album_jugovo_party_500_500.jpeg?url";
+import assetAlbumSvilajnac from "@assets/album_svilajnac_500_500.jpeg?url";
+import FlowerDivider from "@components/FlowerDivider.astro";
+import Center from "@components/Center.astro";
 ---
 
 <Layout>
+  <style>
+    .hero-image-wedding-ceremony-end {
+      background-image: url(/parallax_wedding_couple_800_800.jpeg);
+
+      @media only screen and (min-width: 768px) {
+        background-image: url(/parallax_wedding_couple.jpeg);
+      }
+    }
+  </style>
+  <div class="hero-image-wedding-ceremony-end hero min-h-screen">
+    <div class="hero-overlay bg-neutral/50"></div>
+    <div class="hero-content text-neutral-content text-center">
+      <div class="max-w-xl">
+        <!--div with style to apply glowing effect-->
+        <div style="text-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 0 0px rgba(255, 255, 255, 0.6);">
+          <Headline>
+            {t("nav.photos")}
+          </Headline>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <Container>
-    <Headline>{t("nav.photos")}</Headline>
+    <Center>
+      <div class="card bg-base-100 w-96 shadow-sm">
+        <figure class="px-10 pt-10">
+          <img src={assetAlbumJugovo} alt={t("photos.albumWeddingJugovo")} class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title mb-2 text-center font-serif text-2xl lg:mb-4 lg:text-3xl">
+            {t("photos.albumWeddingJugovo")}
+          </h2>
+
+          <div class="card-actions">
+            <a class="btn btn-primary" href="https://photos.app.goo.gl/vPkNEaxQRDoteUkv8" target="_blank">
+              <svg
+                class="h-5 w-5"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z"></path>
+                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5"></path>
+                <line x1="10" y1="14" x2="20" y2="4"></line>
+                <polyline points="15 4 20 4 20 9"></polyline></svg
+              >
+              {t("photos.look")}</a
+            >
+          </div>
+        </div>
+      </div>
+    </Center>
+
+    <FlowerDivider type="1" />
+
+    <Center>
+      <div class="card bg-base-100 w-96 shadow-sm">
+        <figure class="px-10 pt-10">
+          <img src={assetAlbumJugovoParty} alt={t("photos.albumPartyJugovo")} class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title mb-2 text-center font-serif text-2xl lg:mb-4 lg:text-3xl">
+            {t("photos.albumPartyJugovo")}
+          </h2>
+
+          <div class="card-actions">
+            <a class="btn btn-primary" href="https://photos.app.goo.gl/GjCHrU61dM9pWZ9o8" target="_blank">
+              <svg
+                class="h-5 w-5"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z"></path>
+                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5"></path>
+                <line x1="10" y1="14" x2="20" y2="4"></line>
+                <polyline points="15 4 20 4 20 9"></polyline></svg
+              >
+              {t("photos.look")}</a
+            >
+          </div>
+        </div>
+      </div>
+    </Center>
+
+    <FlowerDivider type="2" />
+
+    <Center>
+      <div class="card bg-base-100 w-96 shadow-sm">
+        <figure class="px-10 pt-10">
+          <img src={assetAlbumGuests} alt={t("photos.albumGuests")} class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title mb-2 text-center font-serif text-2xl lg:mb-4 lg:text-3xl">{t("photos.albumGuests")}</h2>
+
+          <div class="card-actions">
+            <a class="btn btn-primary" href="https://photos.app.goo.gl/vg3vQGH2Sts35vCZA" target="_blank">
+              <svg
+                class="h-5 w-5"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z"></path>
+                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5"></path>
+                <line x1="10" y1="14" x2="20" y2="4"></line>
+                <polyline points="15 4 20 4 20 9"></polyline></svg
+              >
+              {t("photos.look")}</a
+            >
+          </div>
+        </div>
+      </div>
+    </Center>
+
+    <FlowerDivider type="3" />
+
+    <Center>
+      <div class="card bg-base-100 w-96 shadow-sm">
+        <figure class="px-10 pt-10">
+          <img src={assetAlbumGarden} alt={t("photos.albumGarden")} class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title mb-2 text-center font-serif text-2xl lg:mb-4 lg:text-3xl">{t("photos.albumGarden")}</h2>
+
+          <div class="card-actions">
+            <a class="btn btn-primary" href="https://photos.app.goo.gl/Tuq2QVRYXYCQ1Dds5" target="_blank">
+              <svg
+                class="h-5 w-5"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z"></path>
+                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5"></path>
+                <line x1="10" y1="14" x2="20" y2="4"></line>
+                <polyline points="15 4 20 4 20 9"></polyline></svg
+              >
+              {t("photos.look")}</a
+            >
+          </div>
+        </div>
+      </div>
+    </Center>
+
+    <FlowerDivider type="1" />
+
+    <Center>
+      <div class="card bg-base-100 w-96 shadow-sm">
+        <figure class="px-10 pt-10">
+          <img src={assetAlbumChurch} alt={t("photos.albumChurch")} class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title mb-2 text-center font-serif text-2xl lg:mb-4 lg:text-3xl">{t("photos.albumChurch")}</h2>
+
+          <div class="card-actions">
+            <a class="btn btn-primary" href="https://photos.app.goo.gl/1kXVG5MnarZ2je5x9" target="_blank">
+              <svg
+                class="h-5 w-5"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z"></path>
+                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5"></path>
+                <line x1="10" y1="14" x2="20" y2="4"></line>
+                <polyline points="15 4 20 4 20 9"></polyline></svg
+              >
+              {t("photos.look")}</a
+            >
+          </div>
+        </div>
+      </div>
+    </Center>
+
+    <FlowerDivider type="2" />
+
+    <Center>
+      <div class="card bg-base-100 w-96 shadow-sm">
+        <figure class="px-10 pt-10">
+          <img src={assetAlbumSvilajnac} alt={t("photos.albumSvilajnac")} class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title mb-2 text-center font-serif text-2xl lg:mb-4 lg:text-3xl">
+            {t("photos.albumSvilajnac")}
+          </h2>
+
+          <div class="card-actions">
+            <a class="btn btn-primary" href="https://photos.app.goo.gl/UhQRcpzyeoEAit888" target="_blank">
+              <svg
+                class="h-5 w-5"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z"></path>
+                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5"></path>
+                <line x1="10" y1="14" x2="20" y2="4"></line>
+                <polyline points="15 4 20 4 20 9"></polyline></svg
+              >
+              {t("photos.look")}</a
+            >
+          </div>
+        </div>
+      </div>
+    </Center>
+
+    <FlowerDivider type="3" />
+
+    <Center>
+      <div class="card bg-base-100 w-96 shadow-sm">
+        <figure class="px-10 pt-10">
+          <img src={assetAlbumBeograde} alt={t("photos.albumBeograde")} class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title mb-2 text-center font-serif text-2xl lg:mb-4 lg:text-3xl">
+            {t("photos.albumBeograde")}
+          </h2>
+
+          <div class="card-actions">
+            <a class="btn btn-primary" href="https://photos.app.goo.gl/TDBGZRXAdR7VMt9E6" target="_blank">
+              <svg
+                class="h-5 w-5"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z"></path>
+                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5"></path>
+                <line x1="10" y1="14" x2="20" y2="4"></line>
+                <polyline points="15 4 20 4 20 9"></polyline></svg
+              >
+              {t("photos.look")}</a
+            >
+          </div>
+        </div>
+      </div>
+    </Center>
   </Container>
 </Layout>

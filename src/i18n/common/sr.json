@@ -141,7 +141,16 @@
     }
   },
 
-  "photos": {},
+  "photos": {
+    "look": "Погледајте",
+    "albumWeddingJugovo": "Венчање Југово",
+    "albumPartyJugovo": "Весеље Југово",
+    "albumGuests": "Слике с гостима",
+    "albumGarden": "Башта Југово",
+    "albumChurch": "Црква",
+    "albumSvilajnac": "Свилајнац",
+    "albumBeograde": "Београд"
+  },
 
   "404": {
     "headline": "Ups-a-dups!",

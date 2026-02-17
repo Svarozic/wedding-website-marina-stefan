@@ -129,7 +129,16 @@
     }
   },
 
-  "photos": {},
+  "photos": {
+    "look": "Take a look",
+    "albumWeddingJugovo": "Wedding Jugovo",
+    "albumPartyJugovo": "Party Jugovo",
+    "albumGuests": "Photos with guests",
+    "albumGarden": "Garden Jugovo",
+    "albumChurch": "Church",
+    "albumSvilajnac": "Svilajnac",
+    "albumBeograde": "Belgrade"
+  },
 
   "404": {
     "headline": "Whoops-a-daisy!",

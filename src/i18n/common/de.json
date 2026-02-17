@@ -129,7 +129,16 @@
     }
   },
 
-  "photos": {},
+  "photos": {
+    "look": "Anschauen",
+    "albumWeddingJugovo": "Hochzeit Jugovo",
+    "albumPartyJugovo": "Feier Jugovo",
+    "albumGuests": "Fotos mit Gästen",
+    "albumGarden": "Garten Jugovo",
+    "albumChurch": "Kirche",
+    "albumSvilajnac": "Svilajnac",
+    "albumBeograde": "Belgrad"
+  },
 
   "404": {
     "headline": "Hoppla!",

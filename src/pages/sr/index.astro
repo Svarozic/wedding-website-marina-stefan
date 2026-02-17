@@ -2,7 +2,6 @@
 import { l, t } from "astro-i18n";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
-import ParticipationHeadline from "@components/ParticipationHeadline.astro";
 import FlowerDivider from "@components/FlowerDivider.astro";
 import Hero from "@components/Hero.astro";
 import CountdownHeadline from "@components/CountdownHeadline.astro";
@@ -73,7 +72,7 @@ import Center from "@components/Center.astro";
     <Headline top={t("when") + "?"}>{t("date")}</Headline>
 
     <Center>
-      <a class="btn btn-outline" href={l("/itinerary")}>{t("moreInfo")}</a>
+      <a class="btn btn-primary" href={l("/photos")}>{t("photosButton")}</a>
     </Center>
   </Container>
 
@@ -81,25 +80,25 @@ import Center from "@components/Center.astro";
 
   <div class="relative flex h-96 w-full flex-col items-center justify-center overflow-hidden lg:h-140">
     <style>
-      #parallax-couple {
-        background-image: url(/parallax_couple_800_800.jpeg);
+      #parallax-wedding-couple {
+        background-image: url(/parallax_wedding_couple_800_800.jpeg);
         background-size: cover;
         background-position: center;
       }
 
       @media only screen and (min-width: 768px) {
-        #parallax-couple {
-          background-image: url(/parallax_couple.jpeg);
+        #parallax-wedding-couple {
+          background-image: url(/parallax_wedding_couple.jpeg);
         }
       }
     </style>
-    <div id="parallax-couple" class="absolute inset-0 h-screen max-h-[80vh] will-change-transform"></div>
+    <div id="parallax-wedding-couple" class="absolute inset-0 h-screen max-h-[80vh] will-change-transform"></div>
     <script>
       // Lifecycle handles - needed for astro transitions
       // @see https://docs.astro.build/en/tutorials/add-view-transitions/#update-scripts
       document.addEventListener("astro:page-load", () => {
         (function () {
-          const el = document.getElementById("parallax-couple");
+          const el = document.getElementById("parallax-wedding-couple");
           const speed = 0.4; // tweak 0.1–0.4
           let ticking = false;
 
@@ -130,8 +129,4 @@ import Center from "@components/Center.astro";
       });
     </script>
   </div>
-
-  <Container>
-    <ParticipationHeadline />
-  </Container>
 </Layout>

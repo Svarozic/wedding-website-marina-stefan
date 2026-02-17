@@ -34,6 +34,7 @@ import src_logo_flowers_400_364 from "@assets/logo_flowers_400_364.png?url";
             </div>
           </a>
         </li>
+        <li><a class="whitespace-nowrap" href={l("/photos")}>{t("nav.photos")}</a></li>
         <li><a class="whitespace-nowrap" href={l("/itinerary")}>{t("nav.itinerary")}</a></li>
         <li><a class="whitespace-nowrap" href={l("/route-sm")}>{t("nav.routeSM")}</a></li>
         <li><a class="whitespace-nowrap" href={l("/route-sv")}>{t("nav.routeSV")}</a></li>
@@ -48,30 +49,13 @@ import src_logo_flowers_400_364 from "@assets/logo_flowers_400_364.png?url";
   </div>
 
   <div class="navbar-center hidden lg:flex">
+    <a class="btn btn-ghost" href={l("/photos")}>{t("nav.photos")}</a>
     <a class="btn btn-ghost" href={l("/itinerary")}>{t("nav.itinerary")}</a>
     <a class="btn btn-ghost" href={l("/route-sm")}>{t("nav.routeSM")}</a>
     <a class="btn btn-ghost" href={l("/route-sv")}>{t("nav.routeSV")}</a>
   </div>
 
   <div class="navbar-end">
-    <a class="btn btn-primary btn-sm md:btn-md" href={l("/participation")}>
-      <svg
-        class="h-3 w-3 md:h-5 md:w-5"
-        viewBox="0 0 24 24"
-        stroke-width="2"
-        stroke="currentColor"
-        fill="none"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      >
-        <path stroke="none" d="M0 0h24v24H0z"></path>
-        <line x1="10" y1="14" x2="21" y2="3"></line>
-        <path d="M21 3L14.5 21a.55 .55 0 0 1 -1 0L10 14L3 10.5a.55 .55 0 0 1 0 -1L21 3"></path></svg
-      >
-      <span class="hidden lg:block">{t("nav.participation")}</span>
-      <span class="hidden md:block lg:hidden">{t("nav.participation_short")}</span>
-    </a>
-    <span class="w-2 md:w-4"></span>
     <LanguagePicker />
   </div>
 </div>

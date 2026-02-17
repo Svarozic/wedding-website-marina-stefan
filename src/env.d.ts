@@ -8,7 +8,7 @@ type RouteParameters = {
   "/sr/daisy": undefined;
   "/sr": undefined;
   "/sr/itinerary": undefined;
-  "/sr/participation": undefined;
+  "/sr/photos": undefined;
   "/sr/route-sm": undefined;
   "/sr/route-sv": undefined;
 };
@@ -22,6 +22,7 @@ type TranslationVariables = {
   when: object | undefined;
   date: object | undefined;
   moreInfo: object | undefined;
+  photosButton: object | undefined;
   copyright1: object | undefined;
   copyright2: object | undefined;
   "countdown.days": { $priority?: number; count?: number } | undefined;
@@ -31,7 +32,6 @@ type TranslationVariables = {
   "countdown.before": object | undefined;
   "countdown.after": object | undefined;
   "hero.headline1": object | undefined;
-  "hero.headline2": object | undefined;
   "languagePicker.tooltip": object | undefined;
   "languagePicker.english": object | undefined;
   "languagePicker.german": object | undefined;
@@ -40,6 +40,7 @@ type TranslationVariables = {
   "nav.home": object | undefined;
   "nav.participation": object | undefined;
   "nav.participation_short": object | undefined;
+  "nav.photos": object | undefined;
   "nav.itinerary": object | undefined;
   "nav.routeSM": object | undefined;
   "nav.routeSV": object | undefined;

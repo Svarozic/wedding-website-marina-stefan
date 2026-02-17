@@ -1,0 +1,12 @@
+---
+import { t } from "astro-i18n";
+import Headline from "@components/Headline.astro";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/Container.astro";
+---
+
+<Layout>
+  <Container>
+    <Headline>{t("nav.photos")}</Headline>
+  </Container>
+</Layout>

@@ -4,8 +4,9 @@
   "lastUpdate": "Last update",
 
   "when": "When",
-  "date": "9. November 2025",
+  "date": "Our wedding happened on November 9th, 2025",
   "moreInfo": "More info",
+  "photosButton": "Take a look at our photos",
   "copyright1": "Copyright ©",
   "copyright2": "- All right reserved",
 
@@ -30,13 +31,12 @@
     "seconds{{ count: 2 }}": "seconds",
     "seconds": "seconds",
 
-    "before": "Dear ones, only",
-    "after": "passed, since we promised ourselves to each other."
+    "before": "Our dearest ones, it has passed",
+    "after": "days since we united our life paths"
   },
 
   "hero": {
-    "headline1": "With hearts overflowing with joy and boundless happiness, we warmly invite you to join us on the day when our love will be crowned and sealed in marriage.",
-    "headline2": "Welcome"
+    "headline1": "Your presence gave a special shine to our happiness. From the bottom of our hearts, Thank you!"
   },
 
   "languagePicker": {
@@ -51,6 +51,7 @@
     "home": "Home",
     "participation": "RSVP",
     "participation_short": "RSVP",
+    "photos": "Photos",
     "itinerary": "Itinerary",
     "routeSM": "Route SM",
     "routeSV": "Route SV"
@@ -127,6 +128,8 @@
       "smederevo": "Beogradski put bb, 11300 Smederevo"
     }
   },
+
+  "photos": {},
 
   "404": {
     "headline": "Whoops-a-daisy!",
